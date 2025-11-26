@@ -298,6 +298,9 @@ class SimuladorInventario:
         
         # 4. Registrar costos de almacenamiento
         self._registrar_costos_almacenamiento()
+
+        #Indice de eventos del dia
+        self.indice_inicio_dia = len(self.eventos_log)
         
         # 5. Evaluación periódica (cada 7 días)
         if self.dia_simulacion % 7 == 0:
@@ -374,6 +377,7 @@ class SimuladorInventario:
                     'cantidad': cantidad,
                     'costo': costo
                 })
+                self.finanzas.registrar_egreso(costo, f"Pedido a: {proveedor.nombre}, Producto: {producto.id}, Cantidad: {cantidad}", self.fecha_actual)
     
     def _procesar_entregas(self):
         """Procesa pedidos que llegan en este día"""

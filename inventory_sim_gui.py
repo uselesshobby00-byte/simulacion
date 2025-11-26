@@ -184,16 +184,16 @@ class InterfazSimulador:
         # Crear productos de ejemplo
         productos_ejemplo = [
             Producto("PROD001", "Tornillo M6", costo_unitario=0.5, precio_venta=1.2, 
-                     punto_pedido=50, demanda_estimada=10, tiempo_reposicion=3),
+                     punto_pedido=250, demanda_estimada=10, tiempo_reposicion=3),
             Producto("PROD002", "Tuerca M6", costo_unitario=0.3, precio_venta=0.9,
-                     punto_pedido=60, demanda_estimada=12, tiempo_reposicion=3),
+                     punto_pedido=250, demanda_estimada=12, tiempo_reposicion=3),
             Producto("PROD003", "Arandela", costo_unitario=0.1, precio_venta=0.4,
-                     punto_pedido=100, demanda_estimada=20, tiempo_reposicion=2)
+                     punto_pedido=250, demanda_estimada=20, tiempo_reposicion=2)
         ]
         
         for prod in productos_ejemplo:
             # Agregar inventario inicial
-            prod.agregar_lote(100, prod.costo_unitario, self.simulador.fecha_actual)
+            prod.agregar_lote(400, prod.costo_unitario, self.simulador.fecha_actual)
             self.simulador.agregar_producto(prod)
             self.historia_inventario[prod.id] = []
         
@@ -202,10 +202,10 @@ class InterfazSimulador:
             Proveedor("PROV001", "Suministros ABC", 
                       productos_ofrecidos=["PROD001", "PROD002", "PROD003"],
                       tiempo_entrega=3, costo_base=0.5, fiabilidad=0.95,
-                      descuento_volumen={"PROD001": (100, 0.1), "PROD002": (150, 0.15)}),
+                      descuento_volumen={"PROD001": (50, 0.1), "PROD002": (150, 0.15)}),
             Proveedor("PROV002", "Distribuidora XYZ",
                       productos_ofrecidos=["PROD001", "PROD003"],
-                      tiempo_entrega=2, costo_base=0.55, fiabilidad=0.98)
+                      tiempo_entrega=2, costo_base=0.40, fiabilidad=0.85)
         ]
         
         for prov in proveedores_ejemplo:
@@ -215,13 +215,22 @@ class InterfazSimulador:
         clientes_ejemplo = [
             Cliente("CLI001", "Ferretería XYZ", TipoCliente.MINORISTA,
                     productos_solicitados=["PROD001", "PROD002"],
-                    frecuencia_compra=3, cantidad_promedio=15, prioridad=3),
+                    frecuencia_compra=1, cantidad_promedio=15, prioridad=1),
             Cliente("CLI002", "Construcciones ABC", TipoCliente.MAYORISTA,
                     productos_solicitados=["PROD001", "PROD003"],
-                    frecuencia_compra=7, cantidad_promedio=50, prioridad=4),
+                    frecuencia_compra=5, cantidad_promedio=50, prioridad=4),
             Cliente("CLI003", "Taller Local", TipoCliente.MINORISTA,
                     productos_solicitados=["PROD002", "PROD003"],
-                    frecuencia_compra=2, cantidad_promedio=10, prioridad=2)
+                    frecuencia_compra=1, cantidad_promedio=20, prioridad=2),
+            Cliente("CLI003", "Fernando", TipoCliente.MINORISTA,
+                    productos_solicitados=["PROD002"],
+                    frecuencia_compra=1, cantidad_promedio=20, prioridad=1),
+            Cliente("CLI003", "CAS", TipoCliente.MINORISTA,
+                    productos_solicitados=["PROD001", "PROD002", "PROD003"],
+                    frecuencia_compra=3, cantidad_promedio=20, prioridad=5),
+            Cliente("CLI003", "Ernesto", TipoCliente.MAYORISTA,
+                    productos_solicitados=["PROD001", "PROD003"],
+                    frecuencia_compra=5, cantidad_promedio=50, prioridad=4)
         ]
         
         for cli in clientes_ejemplo:
@@ -370,14 +379,22 @@ class InterfazSimulador:
         self.canvas_finanzas.draw()
     
     def _agregar_eventos_recientes(self):
+        #borra los registros anteriores
+        self.text_eventos.delete("1.0", tk.END)
+
+
         """Agrega los eventos más recientes al log"""
         if not self.simulador or not self.simulador.eventos_log:
             return
         
         # Obtener últimos 5 eventos
-        eventos_recientes = self.simulador.eventos_log[-5:]
+        #eventos_recientes = self.simulador.eventos_log[-5:]
+
+        eventos_hoy = self.simulador.eventos_log[-(self.simulador.indice_inicio_dia):]
         
-        for evento in eventos_recientes:
+        
+        for evento in eventos_hoy:
+
             texto = f"Día {evento['dia']} - {evento['tipo']}: "
             
             if evento['tipo'] == 'VENTA':
@@ -391,6 +408,7 @@ class InterfazSimulador:
             
             self.text_eventos.insert(tk.END, texto + "\n")
             self.text_eventos.see(tk.END)
+        
     
     def _aplicar_config_producto(self):
         """Aplica configuración al producto seleccionado"""
