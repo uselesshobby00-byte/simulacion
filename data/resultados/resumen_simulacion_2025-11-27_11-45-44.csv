@@ -1,0 +1,34 @@
+RESUMEN DE SIMULACIÓN
+Fecha de generación,2025-11-27 11:45:44
+
+INFORMACIÓN GENERAL
+Día final,30
+Fecha final,2025-12-27T11:17:54.962474
+
+ESTADO FINANCIERO
+Saldo inicial,"$100,000.00"
+Saldo final,"$96,480.20"
+Ingresos totales,"$2,187.60"
+Egresos totales,"$5,707.40"
+Utilidad neta,"$-3,519.80"
+Rentabilidad,-3.52%
+
+GESTOR DE PEDIDOS
+Política actual,AGRESIVA
+Sensibilidad,1.0
+Pedidos generados,37
+Costo total pedidos,"$1,189.70"
+
+MÉTRICAS OPERATIVAS
+Desabastecimientos,10
+Ventas totales,90
+Unidades vendidas,3639
+Pedidos pendientes,5
+
+ESTADO DE PRODUCTOS
+ID,Nombre,Inventario,Punto Pedido,Lotes
+PROD001,Tornillo M6,27,50,1
+PROD002,Tuerca M6,199,60,2
+PROD003,Arandela,57,100,1
+PROD004,Perno 1/4,300,40,4
+PROD005,Clavo 3 pulgadas,122,200,1

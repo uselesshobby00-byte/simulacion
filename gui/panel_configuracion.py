@@ -139,10 +139,11 @@ class PanelConfiguracion:
         )
         btn_reiniciar.pack(side=tk.LEFT, padx=5)
         
-        # ===== SEPARADOR =====
+        #region  SEPARADOR 
         ttk.Separator(self.frame, orient=tk.VERTICAL).pack(side=tk.LEFT, fill=tk.Y, padx=10)
+        #endregion
         
-        # ===== INFORMACIÓN RÁPIDA =====
+#region INFORMACIÓN RÁPIDA
         frame_info = ttk.Frame(self.frame)
         frame_info.pack(side=tk.LEFT, padx=10)
         
@@ -184,8 +185,9 @@ class PanelConfiguracion:
             tooltip.after(3000, ocultar)
         
         widget.bind("<Enter>", mostrar_tooltip)
+#endregion
     
-    # ===== CALLBACKS =====
+    #region CALLBACKS 
     
     def _on_inicializar_click(self):
         """Callback al hacer clic en inicializar"""
@@ -208,8 +210,11 @@ class PanelConfiguracion:
         """Callback al hacer clic en reiniciar"""
         if self.on_reiniciar:
             self.on_reiniciar()
+
+#endregion
+
     
-    # ===== MÉTODOS PÚBLICOS =====
+    #region MÉTODOS PÚBLICOS 
     
     def obtener_configuracion(self) -> dict:
         """
@@ -248,3 +253,4 @@ class PanelConfiguracion:
                 for child in widget.winfo_children():
                     if isinstance(child, (ttk.Button, ttk.Combobox)):
                         child.config(state=estado)
+    #endregion

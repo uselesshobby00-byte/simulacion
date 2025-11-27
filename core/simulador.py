@@ -83,8 +83,8 @@ class SimuladorInventario:
         self.eventos_log: List[Evento] = []
         
         # Costos del sistema
-        self.costo_almacenamiento = 0.1  # por unidad por día
-        self.costo_desabastecimiento_base = 50.0
+        self.costo_almacenamiento = 0.05  # por unidad por día
+        self.costo_desabastecimiento_base = 10.0
         
         # Métricas
         self.desabastecimientos = 0

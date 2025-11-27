@@ -85,6 +85,7 @@ class InterfazPrincipal:
         menu_simulacion.add_command(label="Simular 7 Días", command=lambda: self._simular_dias(7))
         menu_simulacion.add_command(label="Simular 30 Días", command=lambda: self._simular_dias(30))
         menu_simulacion.add_command(label="Simular 90 Días", command=lambda: self._simular_dias(90))
+        menu_simulacion.add_command(label="Simular 900 Días", command=lambda: self._simular_dias(900))
         
         # Menú Ayuda
         menu_ayuda = tk.Menu(menubar, tearoff=0)
@@ -136,7 +137,7 @@ class InterfazPrincipal:
         )
         self.barra_estado.grid(row=2, column=0, sticky="ew")
     
-    # ==================== CALLBACKS DE PANELES ====================
+    #region = CALLBACKS DE PANELES =
     
     def _inicializar_desde_panel(self, metodo: str, politica: str):
         """
@@ -182,8 +183,9 @@ class InterfazPrincipal:
         self._actualizar_interfaz_completa()
         self._actualizar_barra_estado(f"Producto {producto_id} actualizado")
         messagebox.showinfo("Éxito", "Configuración del producto actualizada")
+        #endregion
     
-    # ==================== ACCIONES DE SIMULACIÓN ====================
+    #region = ACCIONES DE SIMULACIÓN =
     
     def _avanzar_un_dia(self):
         """Avanza un día en la simulación"""
@@ -241,6 +243,7 @@ class InterfazPrincipal:
         
         if respuesta:
             self.simulador.reiniciar()
+            self.panel_graficas.limpiar()
             self._actualizar_interfaz_completa()
             self._actualizar_barra_estado("Simulación reiniciada")
     
@@ -253,8 +256,8 @@ class InterfazPrincipal:
             "Para crear una nueva simulación, reinicie la aplicación.\n\n"
             "Próximamente: diálogo para configurar nueva simulación."
         )
-    
-    # ==================== ACTUALIZACIÓN DE INTERFAZ ====================
+#endregion
+    #region = ACTUALIZACIÓN DE INTERFAZ =
     
     def _actualizar_interfaz_completa(self):
         """Actualiza todos los componentes de la interfaz"""
@@ -270,7 +273,7 @@ class InterfazPrincipal:
         self.panel_graficas.actualizar_graficas(self.simulador)
         
         # Actualizar eventos
-        eventos_recientes = self.simulador.obtener_eventos_recientes(20)
+        eventos_recientes = self.simulador.obtener_eventos_recientes(100)
         self.panel_graficas.actualizar_eventos(eventos_recientes)
     
     def _actualizar_barra_estado(self, mensaje: str):
@@ -282,8 +285,9 @@ class InterfazPrincipal:
         """
         self.barra_estado.config(text=mensaje)
         self.root.update_idletasks()
+#endregion
     
-    # ==================== EXPORTACIÓN ====================
+    #region = EXPORTACIÓN =
     
     def _exportar_resumen(self):
         """Exporta un resumen de la simulación"""
@@ -312,9 +316,9 @@ class InterfazPrincipal:
             messagebox.showinfo("Éxito", mensaje)
         except Exception as e:
             messagebox.showerror("Error", f"Error al exportar: {str(e)}")
+#endregion
     
-    # ==================== MENÚ AYUDA ====================
-    
+    #region  = MENÚ AYUDA = 
     def _mostrar_acerca_de(self):
         """Muestra información sobre la aplicación"""
         ventana = tk.Toplevel(self.root)
@@ -420,3 +424,4 @@ Para más información, consulte el archivo README.md
         """Cierra la aplicación"""
         if messagebox.askokcancel("Salir", "¿Desea salir de la aplicación?"):
             self.root.quit()
+#endregion 

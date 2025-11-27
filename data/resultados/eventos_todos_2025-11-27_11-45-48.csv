@@ -1,0 +1,170 @@
+cantidad,cantidad_solicitada,cliente,costo,dia,dias_entrega,egreso,ingreso,inventario_disponible,penalizacion,producto,proveedor,tipo
+90,,,45.0,1,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+108,,,32.4,1,3,,,,,PROD002,Suministros ABC,PEDIDO
+120,,,12.0,1,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+96,,,67.58400000000002,1,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+300,,,15.0,1,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+,4,Taller Mecánico López,,2,,,,0,70.0,PROD002,,DESABASTECIMIENTO
+,14,Taller Mecánico López,,2,,,,0,70.0,PROD004,,DESABASTECIMIENTO
+90,,,45.0,2,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+108,,,32.4,2,3,,,,,PROD002,Suministros ABC,PEDIDO
+120,,,12.0,2,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+96,,,67.58400000000002,2,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+300,,,15.0,2,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+,6,Ferretería El Tornillo,,3,,,,0,80.0,PROD001,,DESABASTECIMIENTO
+,19,Ferretería El Tornillo,,3,,,,0,80.0,PROD002,,DESABASTECIMIENTO
+,22,Ferretería El Tornillo,,3,,,,0,80.0,PROD003,,DESABASTECIMIENTO
+90,,,45.0,3,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+108,,,32.4,3,3,,,,,PROD002,Suministros ABC,PEDIDO
+120,,,12.0,3,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+96,,,67.58400000000002,3,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+300,,,15.0,3,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+90,,,,3,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+120,,,,3,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+96,,,,3,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION
+,13,Taller Mecánico López,,4,,,,0,70.0,PROD002,,DESABASTECIMIENTO
+13,,Taller Mecánico López,9.152000000000003,4,,,26.0,,,PROD004,,VENTA
+108,,,32.4,4,3,,,,,PROD002,Suministros ABC,PEDIDO
+300,,,15.0,4,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+108,,,,4,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+90,,,,4,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+120,,,,4,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+96,,,,4,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION
+30,,Almacén Central (Interno),15.0,5,,,36.0,,,PROD001,,VENTA
+30,,Almacén Central (Interno),9.0,5,,,27.0,,,PROD002,,VENTA
+,34,Almacén Central (Interno),,5,,,,0,100.0,PROD005,,DESABASTECIMIENTO
+300,,,15.0,5,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+300,,,,5,,15.0,,,,PROD005,Ferretería Industrial,RECEPCION
+108,,,,5,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+90,,,,5,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+120,,,,5,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+96,,,,5,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION
+13,,Ferretería El Tornillo,6.5,6,,,15.6,,,PROD001,,VENTA
+19,,Ferretería El Tornillo,5.7,6,,,17.1,,,PROD002,,VENTA
+21,,Ferretería El Tornillo,2.1,6,,,8.4,,,PROD003,,VENTA
+13,,Taller Mecánico López,3.9,6,,,11.700000000000001,,,PROD002,,VENTA
+9,,Taller Mecánico López,6.336000000000002,6,,,18.0,,,PROD004,,VENTA
+300,,,,6,,15.0,,,,PROD005,Ferretería Industrial,RECEPCION
+108,,,,6,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+22,,Construcciones Pérez,11.0,7,,,26.4,,,PROD001,,VENTA
+40,,Construcciones Pérez,4.0,7,,,16.0,,,PROD003,,VENTA
+76,,Construcciones Pérez,53.50400000000001,7,,,152.0,,,PROD004,,VENTA
+153,,Construcciones Pérez,7.65,7,,,22.95,,,PROD005,,VENTA
+300,,,,7,,15.0,,,,PROD005,Ferretería Industrial,RECEPCION
+108,,,,7,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+13,,Taller Mecánico López,3.9,8,,,11.700000000000001,,,PROD002,,VENTA
+7,,Taller Mecánico López,4.928000000000001,8,,,14.0,,,PROD004,,VENTA
+300,,,,8,,15.0,,,,PROD005,Ferretería Industrial,RECEPCION
+6,,Ferretería El Tornillo,3.0,9,,,7.199999999999999,,,PROD001,,VENTA
+8,,Ferretería El Tornillo,2.4,9,,,7.2,,,PROD002,,VENTA
+13,,Ferretería El Tornillo,1.3,9,,,5.2,,,PROD003,,VENTA
+300,,,,9,,15.0,,,,PROD005,Ferretería Industrial,RECEPCION
+12,,Taller Mecánico López,3.5999999999999996,10,,,10.8,,,PROD002,,VENTA
+13,,Taller Mecánico López,9.152000000000003,10,,,26.0,,,PROD004,,VENTA
+25,,Almacén Central (Interno),12.5,10,,,30.0,,,PROD001,,VENTA
+30,,Almacén Central (Interno),9.0,10,,,27.0,,,PROD002,,VENTA
+25,,Almacén Central (Interno),1.25,10,,,3.75,,,PROD005,,VENTA
+134,,Ferreterías del Norte,13.400000000000002,10,,,53.6,,,PROD003,,VENTA
+285,,Ferreterías del Norte,14.25,10,,,42.75,,,PROD005,,VENTA
+8,,Ferretería El Tornillo,4.0,12,,,9.6,,,PROD001,,VENTA
+18,,Ferretería El Tornillo,5.3999999999999995,12,,,16.2,,,PROD002,,VENTA
+8,,Ferretería El Tornillo,0.8,12,,,3.2,,,PROD003,,VENTA
+8,,Taller Mecánico López,2.4,12,,,7.2,,,PROD002,,VENTA
+10,,Taller Mecánico López,7.040000000000002,12,,,20.0,,,PROD004,,VENTA
+66,,Construcciones Pérez,33.0,14,,,79.2,,,PROD001,,VENTA
+104,,Construcciones Pérez,10.4,14,,,41.6,,,PROD003,,VENTA
+52,,Construcciones Pérez,36.60800000000001,14,,,104.0,,,PROD004,,VENTA
+150,,Construcciones Pérez,7.500000000000001,14,,,22.5,,,PROD005,,VENTA
+8,,Taller Mecánico López,2.4,14,,,7.2,,,PROD002,,VENTA
+10,,Taller Mecánico López,7.040000000000002,14,,,20.0,,,PROD004,,VENTA
+120,,,12.0,14,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+20,,Ferretería El Tornillo,10.0,15,,,24.0,,,PROD001,,VENTA
+18,,Ferretería El Tornillo,5.3999999999999995,15,,,16.2,,,PROD002,,VENTA
+16,,Ferretería El Tornillo,1.6,15,,,6.4,,,PROD003,,VENTA
+35,,Almacén Central (Interno),17.5,15,,,42.0,,,PROD001,,VENTA
+28,,Almacén Central (Interno),8.4,15,,,25.2,,,PROD002,,VENTA
+35,,Almacén Central (Interno),1.75,15,,,5.25,,,PROD005,,VENTA
+90,,,45.0,15,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+120,,,12.0,15,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+8,,Taller Mecánico López,2.4,16,,,7.2,,,PROD002,,VENTA
+9,,Taller Mecánico López,6.336000000000001,16,,,18.0,,,PROD004,,VENTA
+90,,,45.0,16,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+120,,,12.0,16,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+120,,,,16,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+90,,,45.0,17,2,,,,,PROD001,Distribuidora XYZ,PEDIDO
+90,,,,17,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+120,,,,17,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+16,,Ferretería El Tornillo,8.0,18,,,19.2,,,PROD001,,VENTA
+13,,Ferretería El Tornillo,3.9,18,,,11.700000000000001,,,PROD002,,VENTA
+9,,Ferretería El Tornillo,0.9,18,,,3.6,,,PROD003,,VENTA
+11,,Taller Mecánico López,3.3,18,,,9.9,,,PROD002,,VENTA
+9,,Taller Mecánico López,6.336000000000002,18,,,18.0,,,PROD004,,VENTA
+90,,,,18,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+120,,,,18,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+90,,,,19,,45.0,,,,PROD001,Distribuidora XYZ,RECEPCION
+11,,Taller Mecánico López,3.3,20,,,9.9,,,PROD002,,VENTA
+15,,Taller Mecánico López,10.560000000000002,20,,,30.0,,,PROD004,,VENTA
+31,,Almacén Central (Interno),15.5,20,,,37.199999999999996,,,PROD001,,VENTA
+29,,Almacén Central (Interno),8.7,20,,,26.1,,,PROD002,,VENTA
+30,,Almacén Central (Interno),1.5,20,,,4.5,,,PROD005,,VENTA
+140,,Ferreterías del Norte,14.0,20,,,56.0,,,PROD003,,VENTA
+193,,Ferreterías del Norte,9.65,20,,,28.95,,,PROD005,,VENTA
+5,,Ferretería El Tornillo,2.5,21,,,6.0,,,PROD001,,VENTA
+11,,Ferretería El Tornillo,3.3,21,,,9.9,,,PROD002,,VENTA
+11,,Ferretería El Tornillo,1.1,21,,,4.4,,,PROD003,,VENTA
+115,,Construcciones Pérez,57.5,21,,,138.0,,,PROD001,,VENTA
+127,,Construcciones Pérez,12.700000000000001,21,,,50.800000000000004,,,PROD003,,VENTA
+,87,Construcciones Pérez,,21,,,,65,90.0,PROD004,,DESABASTECIMIENTO
+92,,Construcciones Pérez,4.6000000000000005,21,,,13.799999999999999,,,PROD005,,VENTA
+120,,,12.0,21,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+10,,Taller Mecánico López,3.0,22,,,9.0,,,PROD002,,VENTA
+11,,Taller Mecánico López,7.7440000000000015,22,,,22.0,,,PROD004,,VENTA
+120,,,12.0,22,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+120,,,12.0,23,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+120,,,,23,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+15,,Ferretería El Tornillo,7.5,24,,,18.0,,,PROD001,,VENTA
+17,,Ferretería El Tornillo,5.1,24,,,15.3,,,PROD002,,VENTA
+19,,Ferretería El Tornillo,1.9000000000000001,24,,,7.6000000000000005,,,PROD003,,VENTA
+8,,Taller Mecánico López,2.4,24,,,7.2,,,PROD002,,VENTA
+9,,Taller Mecánico López,6.336000000000002,24,,,18.0,,,PROD004,,VENTA
+120,,,,24,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+37,,Almacén Central (Interno),18.5,25,,,44.4,,,PROD001,,VENTA
+38,,Almacén Central (Interno),11.4,25,,,34.2,,,PROD002,,VENTA
+27,,Almacén Central (Interno),1.35,25,,,4.05,,,PROD005,,VENTA
+120,,,,25,,12.0,,,,PROD003,Distribuidora XYZ,RECEPCION
+13,,Taller Mecánico López,3.9,26,,,11.700000000000001,,,PROD002,,VENTA
+11,,Taller Mecánico López,7.7440000000000015,26,,,22.0,,,PROD004,,VENTA
+108,,,32.4,26,3,,,,,PROD002,Suministros ABC,PEDIDO
+96,,,67.58400000000002,26,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+10,,Ferretería El Tornillo,5.0,27,,,12.0,,,PROD001,,VENTA
+12,,Ferretería El Tornillo,3.5999999999999996,27,,,10.8,,,PROD002,,VENTA
+15,,Ferretería El Tornillo,1.5,27,,,6.0,,,PROD003,,VENTA
+108,,,32.4,27,3,,,,,PROD002,Suministros ABC,PEDIDO
+96,,,67.58400000000002,27,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+,116,Construcciones Pérez,,28,,,,86,90.0,PROD001,,DESABASTECIMIENTO
+148,,Construcciones Pérez,14.8,28,,,59.2,,,PROD003,,VENTA
+,83,Construcciones Pérez,,28,,,,34,90.0,PROD004,,DESABASTECIMIENTO
+105,,Construcciones Pérez,5.25,28,,,15.75,,,PROD005,,VENTA
+10,,Taller Mecánico López,3.0,28,,,9.0,,,PROD002,,VENTA
+11,,Taller Mecánico López,7.7440000000000015,28,,,22.0,,,PROD004,,VENTA
+108,,,32.4,28,3,,,,,PROD002,Suministros ABC,PEDIDO
+96,,,67.58400000000002,28,2,,,,,PROD004,Distribuidora XYZ,PEDIDO
+96,,,,28,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION
+108,,,32.4,29,3,,,,,PROD002,Suministros ABC,PEDIDO
+108,,,,29,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+96,,,,29,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION
+21,,Ferretería El Tornillo,10.5,30,,,25.2,,,PROD001,,VENTA
+11,,Ferretería El Tornillo,3.3,30,,,9.9,,,PROD002,,VENTA
+20,,Ferretería El Tornillo,2.0,30,,,8.0,,,PROD003,,VENTA
+10,,Taller Mecánico López,3.0,30,,,9.0,,,PROD002,,VENTA
+11,,Taller Mecánico López,7.7440000000000015,30,,,22.0,,,PROD004,,VENTA
+38,,Almacén Central (Interno),19.0,30,,,45.6,,,PROD001,,VENTA
+32,,Almacén Central (Interno),9.6,30,,,28.8,,,PROD002,,VENTA
+31,,Almacén Central (Interno),1.55,30,,,4.6499999999999995,,,PROD005,,VENTA
+198,,Ferreterías del Norte,19.8,30,,,79.2,,,PROD003,,VENTA
+252,,Ferreterías del Norte,12.600000000000001,30,,,37.8,,,PROD005,,VENTA
+90,,,45.0,30,4,,,,,PROD001,Distribuidora XYZ,PEDIDO
+120,,,12.0,30,2,,,,,PROD003,Distribuidora XYZ,PEDIDO
+300,,,15.0,30,4,,,,,PROD005,Ferretería Industrial,PEDIDO
+108,,,,30,,32.4,,,,PROD002,Suministros ABC,RECEPCION
+96,,,,30,,67.58400000000002,,,,PROD004,Distribuidora XYZ,RECEPCION

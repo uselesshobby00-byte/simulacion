@@ -247,6 +247,7 @@ class PanelGraficas:
         """Actualiza los datos históricos"""
         dia = estado['dia']
         
+        
         # Historia financiera
         if dia not in self.historia_finanzas['dias']:
             finanzas = estado['finanzas']
@@ -262,7 +263,8 @@ class PanelGraficas:
                 self.historia_inventario[prod_id] = {
                     'nombre': datos['nombre'],
                     'niveles': [],
-                    'punto_pedido': datos['punto_pedido']
+                    'punto_pedido': datos['punto_pedido'],
+                    'dia':dia
                 }
             
             if len(self.historia_inventario[prod_id]['niveles']) < dia:
@@ -280,11 +282,13 @@ class PanelGraficas:
                                    fontsize=14, color='gray')
         else:
             # Graficar cada producto
+            
             for i, (prod_id, datos) in enumerate(self.historia_inventario.items()):
                 if datos['niveles']:
-                    dias = list(range(1, len(datos['niveles']) + 1))
+                    dias = self.historia_finanzas['dias'][1:]
+                    #dias = list(range(1, len(datos['niveles']) + 1))
                     color = obtener_color_producto(i)
-                    
+
                     # Línea de inventario
                     self.ax_inventario.plot(dias, datos['niveles'], 
                                            marker='o', label=datos['nombre'],

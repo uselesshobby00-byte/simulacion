@@ -1,0 +1,860 @@
+dia,cliente,producto_id,cantidad,ingreso,costo
+4,Taller Mecánico López,,10,20.0,7.040000000000002
+5,Almacén Central (Interno),,37,44.4,18.5
+5,Almacén Central (Interno),,33,29.7,9.9
+6,Ferretería El Tornillo,,20,24.0,10.0
+6,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+6,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+6,Taller Mecánico López,,7,6.3,2.1
+6,Taller Mecánico López,,10,20.0,7.040000000000002
+7,Construcciones Pérez,,185,222.0,92.5
+7,Construcciones Pérez,,45,18.0,4.5
+7,Construcciones Pérez,,78,156.0,54.91200000000001
+7,Construcciones Pérez,,144,21.599999999999998,7.2
+8,Taller Mecánico López,,13,11.700000000000001,3.9
+8,Taller Mecánico López,,9,18.0,6.336000000000002
+9,Ferretería El Tornillo,,14,16.8,7.0
+9,Ferretería El Tornillo,,16,14.4,4.8
+9,Ferretería El Tornillo,,10,4.0,1.0
+10,Taller Mecánico López,,11,9.9,3.3
+10,Taller Mecánico López,,8,16.0,5.6320000000000014
+10,Almacén Central (Interno),,34,40.8,17.0
+10,Almacén Central (Interno),,26,23.400000000000002,7.8
+10,Almacén Central (Interno),,34,5.1,1.7000000000000002
+10,Ferreterías del Norte,,174,69.60000000000001,17.400000000000002
+10,Ferreterías del Norte,,126,18.9,6.300000000000001
+12,Ferretería El Tornillo,,14,16.8,7.0
+12,Ferretería El Tornillo,,26,23.400000000000002,7.8
+12,Ferretería El Tornillo,,4,1.6,0.4
+12,Taller Mecánico López,,12,10.8,3.5999999999999996
+12,Taller Mecánico López,,13,26.0,9.152000000000003
+14,Construcciones Pérez,,87,104.39999999999999,43.5
+14,Construcciones Pérez,,88,35.2,8.8
+14,Construcciones Pérez,,157,314.0,110.52800000000003
+14,Construcciones Pérez,,98,14.7,4.9
+14,Taller Mecánico López,,10,9.0,3.0
+15,Ferretería El Tornillo,,26,31.2,13.0
+15,Ferretería El Tornillo,,14,12.6,4.2
+15,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+15,Almacén Central (Interno),,37,44.4,18.5
+15,Almacén Central (Interno),,26,23.400000000000002,7.8
+15,Almacén Central (Interno),,29,4.35,1.4500000000000002
+16,Taller Mecánico López,,10,9.0,3.0
+18,Ferretería El Tornillo,,16,19.2,8.0
+18,Ferretería El Tornillo,,14,12.6,4.2
+18,Ferretería El Tornillo,,23,9.200000000000001,2.3
+18,Taller Mecánico López,,9,8.1,2.6999999999999997
+18,Taller Mecánico López,,7,14.0,4.928000000000001
+20,Taller Mecánico López,,9,8.1,2.6999999999999997
+20,Taller Mecánico López,,9,18.0,6.336000000000002
+20,Almacén Central (Interno),,25,30.0,12.5
+20,Almacén Central (Interno),,35,31.5,10.5
+20,Almacén Central (Interno),,41,6.1499999999999995,2.0500000000000003
+20,Ferreterías del Norte,,263,105.2,26.300000000000004
+20,Ferreterías del Norte,,181,27.15,9.05
+21,Ferretería El Tornillo,,8,9.6,4.0
+21,Ferretería El Tornillo,,5,4.5,1.5
+21,Ferretería El Tornillo,,22,8.8,2.2
+21,Construcciones Pérez,,73,146.0,51.39200000000001
+21,Construcciones Pérez,,44,6.6,2.2
+22,Taller Mecánico López,,10,9.0,3.0
+22,Taller Mecánico López,,7,14.0,4.928000000000001
+24,Ferretería El Tornillo,,15,18.0,7.5
+24,Ferretería El Tornillo,,15,13.5,4.5
+24,Ferretería El Tornillo,,24,9.600000000000001,2.4000000000000004
+24,Taller Mecánico López,,8,7.2,2.4
+24,Taller Mecánico López,,8,16.0,5.6320000000000014
+25,Almacén Central (Interno),,29,34.8,14.5
+25,Almacén Central (Interno),,20,18.0,6.0
+25,Almacén Central (Interno),,34,5.1,1.7000000000000002
+26,Taller Mecánico López,,10,9.0,3.0
+26,Taller Mecánico López,,9,18.0,6.336000000000002
+27,Ferretería El Tornillo,,20,24.0,10.0
+27,Ferretería El Tornillo,,10,9.0,3.0
+27,Ferretería El Tornillo,,15,6.0,1.5
+28,Construcciones Pérez,,114,136.79999999999998,57.0
+28,Construcciones Pérez,,98,39.2,9.8
+28,Construcciones Pérez,,88,176.0,61.95200000000002
+28,Construcciones Pérez,,106,15.899999999999999,5.300000000000001
+28,Taller Mecánico López,,13,11.700000000000001,3.9
+28,Taller Mecánico López,,9,18.0,6.336000000000002
+30,Ferretería El Tornillo,,14,16.8,7.0
+30,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+30,Ferretería El Tornillo,,16,6.4,1.6
+30,Taller Mecánico López,,8,7.2,2.4
+30,Taller Mecánico López,,8,16.0,5.6320000000000014
+30,Almacén Central (Interno),,30,36.0,15.0
+30,Almacén Central (Interno),,32,4.8,1.6
+30,Ferreterías del Norte,,213,85.2,21.3
+30,Ferreterías del Norte,,162,24.3,8.100000000000001
+32,Taller Mecánico López,,7,6.3,2.1
+32,Taller Mecánico López,,11,22.0,7.7440000000000015
+33,Ferretería El Tornillo,,19,22.8,9.5
+33,Ferretería El Tornillo,,8,7.2,2.4
+33,Ferretería El Tornillo,,13,5.2,1.3
+34,Taller Mecánico López,,9,8.1,2.6999999999999997
+34,Taller Mecánico López,,10,20.0,7.040000000000002
+35,Construcciones Pérez,,106,42.400000000000006,10.600000000000001
+35,Construcciones Pérez,,120,18.0,6.0
+35,Almacén Central (Interno),,28,33.6,14.0
+35,Almacén Central (Interno),,32,28.8,9.6
+35,Almacén Central (Interno),,29,4.35,1.4500000000000002
+36,Ferretería El Tornillo,,10,12.0,5.0
+36,Ferretería El Tornillo,,10,9.0,3.0
+36,Ferretería El Tornillo,,11,4.4,1.1
+36,Taller Mecánico López,,14,12.6,4.2
+36,Taller Mecánico López,,9,18.0,6.336000000000002
+38,Taller Mecánico López,,9,8.1,2.6999999999999997
+38,Taller Mecánico López,,14,28.0,9.856000000000002
+39,Ferretería El Tornillo,,10,12.0,5.0
+39,Ferretería El Tornillo,,13,11.700000000000001,3.9
+39,Ferretería El Tornillo,,24,9.600000000000001,2.4000000000000004
+40,Taller Mecánico López,,11,9.9,3.3
+40,Taller Mecánico López,,9,18.0,6.336000000000002
+40,Almacén Central (Interno),,25,30.0,12.5
+40,Almacén Central (Interno),,23,20.7,6.8999999999999995
+40,Almacén Central (Interno),,32,4.8,1.6
+40,Ferreterías del Norte,,137,20.55,6.8500000000000005
+42,Ferretería El Tornillo,,16,19.2,8.0
+42,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+42,Ferretería El Tornillo,,23,9.200000000000001,2.3000000000000003
+42,Construcciones Pérez,,82,98.39999999999999,41.0
+42,Construcciones Pérez,,116,46.400000000000006,11.600000000000001
+42,Construcciones Pérez,,178,356.0,125.31200000000003
+42,Construcciones Pérez,,83,12.45,4.15
+42,Taller Mecánico López,,9,8.1,2.6999999999999997
+42,Taller Mecánico López,,8,16.0,5.6320000000000014
+44,Taller Mecánico López,,13,11.700000000000001,3.9
+44,Taller Mecánico López,,8,16.0,5.6320000000000014
+45,Ferretería El Tornillo,,11,13.2,5.5
+45,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+45,Ferretería El Tornillo,,15,6.0,1.5
+45,Almacén Central (Interno),,28,33.6,14.0
+45,Almacén Central (Interno),,26,23.400000000000002,7.8
+45,Almacén Central (Interno),,33,4.95,1.6500000000000001
+46,Taller Mecánico López,,7,6.3,2.1
+46,Taller Mecánico López,,8,16.0,5.6320000000000014
+48,Ferretería El Tornillo,,19,22.8,9.5
+48,Ferretería El Tornillo,,10,9.0,3.0
+48,Ferretería El Tornillo,,7,2.8000000000000003,0.7000000000000001
+48,Taller Mecánico López,,12,10.8,3.5999999999999996
+48,Taller Mecánico López,,7,14.0,4.928000000000001
+49,Construcciones Pérez,,82,32.800000000000004,8.200000000000001
+49,Construcciones Pérez,,122,244.0,85.88800000000002
+49,Construcciones Pérez,,84,12.6,4.2
+50,Taller Mecánico López,,9,8.1,2.7
+50,Taller Mecánico López,,10,20.0,7.040000000000002
+50,Almacén Central (Interno),,32,38.4,16.0
+50,Almacén Central (Interno),,28,25.2,8.4
+50,Almacén Central (Interno),,38,5.7,1.9000000000000001
+50,Ferreterías del Norte,,175,26.25,8.75
+51,Ferretería El Tornillo,,13,15.6,6.5
+51,Ferretería El Tornillo,,15,13.5,4.5
+51,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+52,Taller Mecánico López,,10,9.0,3.0
+52,Taller Mecánico López,,9,18.0,6.336000000000002
+54,Ferretería El Tornillo,,5,6.0,2.5
+54,Ferretería El Tornillo,,19,17.1,5.7
+54,Ferretería El Tornillo,,15,6.0,1.5
+54,Taller Mecánico López,,8,7.2,2.4
+54,Taller Mecánico López,,12,24.0,8.448000000000002
+55,Almacén Central (Interno),,29,34.8,14.5
+55,Almacén Central (Interno),,33,29.7,9.899999999999999
+55,Almacén Central (Interno),,29,4.35,1.4500000000000002
+56,Construcciones Pérez,,57,22.8,5.7
+56,Taller Mecánico López,,10,9.0,3.0
+56,Taller Mecánico López,,9,18.0,6.336000000000002
+57,Ferretería El Tornillo,,17,20.4,8.5
+57,Ferretería El Tornillo,,16,14.4,4.8
+57,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+58,Taller Mecánico López,,10,9.0,3.0
+58,Taller Mecánico López,,9,18.0,6.336000000000002
+60,Ferretería El Tornillo,,20,24.0,10.0
+60,Ferretería El Tornillo,,17,15.3,5.1
+60,Ferretería El Tornillo,,13,5.2,1.3
+60,Taller Mecánico López,,11,9.9,3.3
+60,Taller Mecánico López,,9,18.0,6.336000000000002
+60,Almacén Central (Interno),,33,39.6,16.5
+60,Almacén Central (Interno),,29,26.1,8.7
+60,Almacén Central (Interno),,24,3.5999999999999996,1.2
+60,Ferreterías del Norte,,225,90.0,22.5
+60,Ferreterías del Norte,,299,44.85,14.95
+62,Taller Mecánico López,,12,24.0,8.448000000000002
+63,Ferretería El Tornillo,,17,20.4,8.5
+63,Ferretería El Tornillo,,7,2.8000000000000003,0.7000000000000001
+63,Construcciones Pérez,,74,88.8,37.0
+63,Construcciones Pérez,,110,44.0,11.0
+63,Construcciones Pérez,,75,150.0,52.80000000000002
+63,Construcciones Pérez,,111,16.65,5.550000000000001
+64,Taller Mecánico López,,5,4.5,1.5
+64,Taller Mecánico López,,8,16.0,5.6320000000000014
+65,Almacén Central (Interno),,33,39.6,16.5
+65,Almacén Central (Interno),,32,28.8,9.6
+65,Almacén Central (Interno),,25,3.75,1.25
+66,Ferretería El Tornillo,,15,18.0,7.5
+66,Ferretería El Tornillo,,19,17.1,5.7
+66,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+66,Taller Mecánico López,,11,9.9,3.3
+66,Taller Mecánico López,,11,22.0,7.7440000000000015
+68,Taller Mecánico López,,12,10.8,3.5999999999999996
+68,Taller Mecánico López,,11,22.0,7.7440000000000015
+69,Ferretería El Tornillo,,10,12.0,5.0
+69,Ferretería El Tornillo,,19,17.1,5.7
+69,Ferretería El Tornillo,,20,8.0,2.0
+70,Construcciones Pérez,,64,25.6,6.4
+70,Construcciones Pérez,,100,200.0,70.40000000000002
+70,Construcciones Pérez,,92,13.799999999999999,4.6000000000000005
+70,Taller Mecánico López,,11,9.9,3.3
+70,Taller Mecánico López,,10,20.0,7.040000000000002
+70,Almacén Central (Interno),,22,26.4,11.0
+70,Almacén Central (Interno),,29,26.1,8.7
+70,Almacén Central (Interno),,29,4.35,1.4500000000000002
+70,Ferreterías del Norte,,188,75.2,18.8
+70,Ferreterías del Norte,,136,20.4,6.800000000000001
+72,Ferretería El Tornillo,,10,12.0,5.0
+72,Ferretería El Tornillo,,14,12.6,4.2
+72,Ferretería El Tornillo,,10,4.0,1.0
+72,Taller Mecánico López,,12,10.8,3.5999999999999996
+72,Taller Mecánico López,,9,18.0,6.336000000000002
+74,Taller Mecánico López,,12,10.8,3.5999999999999996
+74,Taller Mecánico López,,13,26.0,9.152000000000003
+75,Ferretería El Tornillo,,19,22.8,9.5
+75,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+75,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+75,Almacén Central (Interno),,35,42.0,17.5
+75,Almacén Central (Interno),,21,18.900000000000002,6.3
+75,Almacén Central (Interno),,37,5.55,1.85
+76,Taller Mecánico López,,13,11.700000000000001,3.9
+76,Taller Mecánico López,,13,26.0,9.152000000000003
+77,Construcciones Pérez,,63,75.6,31.5
+77,Construcciones Pérez,,108,16.2,5.4
+78,Ferretería El Tornillo,,17,20.4,8.5
+78,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+78,Ferretería El Tornillo,,11,4.4,1.1
+78,Taller Mecánico López,,9,8.1,2.6999999999999997
+78,Taller Mecánico López,,12,24.0,8.448000000000002
+80,Taller Mecánico López,,10,9.0,3.0
+80,Taller Mecánico López,,8,16.0,5.6320000000000014
+80,Almacén Central (Interno),,34,40.8,17.0
+80,Almacén Central (Interno),,31,27.900000000000002,9.299999999999999
+80,Almacén Central (Interno),,22,3.3,1.1
+80,Ferreterías del Norte,,310,124.0,31.0
+80,Ferreterías del Norte,,26,3.9,1.3
+81,Ferretería El Tornillo,,13,15.6,6.5
+81,Ferretería El Tornillo,,3,2.7,0.8999999999999999
+81,Ferretería El Tornillo,,20,8.0,2.0
+82,Taller Mecánico López,,7,6.3,2.1
+82,Taller Mecánico López,,13,26.0,9.152000000000003
+84,Ferretería El Tornillo,,20,24.0,10.0
+84,Ferretería El Tornillo,,25,22.5,7.5
+84,Ferretería El Tornillo,,11,4.4,1.1
+84,Construcciones Pérez,,100,120.0,50.0
+84,Construcciones Pérez,,80,32.0,8.0
+84,Construcciones Pérez,,77,154.0,54.20800000000001
+84,Construcciones Pérez,,161,24.15,8.05
+84,Taller Mecánico López,,7,6.3,2.1
+84,Taller Mecánico López,,9,18.0,6.336000000000002
+85,Almacén Central (Interno),,34,30.6,10.2
+85,Almacén Central (Interno),,35,5.25,1.75
+86,Taller Mecánico López,,10,9.0,3.0
+86,Taller Mecánico López,,9,18.0,6.336000000000002
+87,Ferretería El Tornillo,,12,14.399999999999999,6.0
+87,Ferretería El Tornillo,,13,11.700000000000001,3.9
+87,Ferretería El Tornillo,,18,7.2,1.8
+88,Taller Mecánico López,,12,10.8,3.5999999999999996
+88,Taller Mecánico López,,6,12.0,4.224000000000001
+90,Ferretería El Tornillo,,19,22.8,9.5
+90,Ferretería El Tornillo,,15,13.5,4.5
+90,Ferretería El Tornillo,,13,5.2,1.3000000000000003
+90,Taller Mecánico López,,13,11.700000000000001,3.9
+90,Taller Mecánico López,,7,14.0,4.928000000000001
+90,Almacén Central (Interno),,26,31.2,13.0
+90,Almacén Central (Interno),,24,3.5999999999999996,1.2000000000000002
+90,Ferreterías del Norte,,128,19.2,6.4
+91,Construcciones Pérez,,92,110.39999999999999,46.0
+91,Construcciones Pérez,,90,36.0,9.0
+91,Construcciones Pérez,,152,304.0,107.00800000000002
+91,Construcciones Pérez,,126,18.9,6.300000000000001
+92,Taller Mecánico López,,15,13.5,4.5
+92,Taller Mecánico López,,8,16.0,5.6320000000000014
+93,Ferretería El Tornillo,,20,24.0,10.0
+93,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+93,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+94,Taller Mecánico López,,11,9.9,3.3
+94,Taller Mecánico López,,12,24.0,8.448000000000002
+95,Almacén Central (Interno),,33,39.6,16.5
+95,Almacén Central (Interno),,31,27.900000000000002,9.299999999999999
+95,Almacén Central (Interno),,28,4.2,1.4000000000000001
+96,Ferretería El Tornillo,,20,24.0,10.0
+96,Ferretería El Tornillo,,10,9.0,3.0
+96,Ferretería El Tornillo,,19,7.6000000000000005,1.9
+96,Taller Mecánico López,,11,9.9,3.3
+96,Taller Mecánico López,,11,22.0,7.7440000000000015
+98,Construcciones Pérez,,82,32.800000000000004,8.200000000000001
+98,Construcciones Pérez,,144,288.0,101.37600000000002
+98,Construcciones Pérez,,124,18.599999999999998,6.2
+98,Taller Mecánico López,,8,7.2,2.4
+98,Taller Mecánico López,,9,18.0,6.336000000000002
+99,Ferretería El Tornillo,,17,20.4,8.5
+99,Ferretería El Tornillo,,9,8.1,2.6999999999999997
+99,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+100,Taller Mecánico López,,9,8.1,2.6999999999999997
+100,Taller Mecánico López,,7,14.0,4.928000000000001
+100,Almacén Central (Interno),,32,38.4,16.0
+100,Almacén Central (Interno),,28,25.2,8.4
+100,Almacén Central (Interno),,34,5.1,1.7000000000000002
+100,Ferreterías del Norte,,138,20.7,6.9
+102,Ferretería El Tornillo,,12,14.399999999999999,6.0
+102,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+102,Ferretería El Tornillo,,15,6.0,1.5
+102,Taller Mecánico López,,11,9.9,3.3
+102,Taller Mecánico López,,11,22.0,7.7440000000000015
+104,Taller Mecánico López,,10,9.0,3.0
+104,Taller Mecánico López,,8,16.0,5.6320000000000014
+105,Ferretería El Tornillo,,10,12.0,5.0
+105,Ferretería El Tornillo,,16,14.4,4.8
+105,Ferretería El Tornillo,,18,7.2,1.8
+105,Construcciones Pérez,,155,186.0,77.5
+105,Construcciones Pérez,,24,48.0,16.896000000000004
+105,Construcciones Pérez,,129,19.349999999999998,6.450000000000001
+105,Almacén Central (Interno),,31,37.199999999999996,15.5
+105,Almacén Central (Interno),,22,19.8,6.6
+105,Almacén Central (Interno),,37,5.55,1.85
+106,Taller Mecánico López,,11,9.9,3.3
+106,Taller Mecánico López,,10,20.0,7.040000000000002
+108,Ferretería El Tornillo,,18,21.599999999999998,9.0
+108,Ferretería El Tornillo,,15,13.5,4.5
+108,Ferretería El Tornillo,,20,8.0,2.0
+108,Taller Mecánico López,,9,8.1,2.6999999999999997
+108,Taller Mecánico López,,10,20.0,7.040000000000002
+110,Taller Mecánico López,,9,8.1,2.6999999999999997
+110,Taller Mecánico López,,10,20.0,7.040000000000002
+110,Almacén Central (Interno),,31,37.199999999999996,15.5
+110,Almacén Central (Interno),,26,23.400000000000002,7.8
+110,Almacén Central (Interno),,35,5.25,1.75
+110,Ferreterías del Norte,,153,61.2,15.3
+111,Ferretería El Tornillo,,20,24.0,10.0
+111,Ferretería El Tornillo,,17,15.3,5.1
+111,Ferretería El Tornillo,,11,4.4,1.1
+112,Construcciones Pérez,,1,1.2,0.5
+112,Construcciones Pérez,,78,31.200000000000003,7.800000000000001
+112,Construcciones Pérez,,58,8.7,2.9000000000000004
+112,Taller Mecánico López,,9,8.1,2.6999999999999997
+112,Taller Mecánico López,,12,24.0,8.448000000000002
+114,Ferretería El Tornillo,,3,3.5999999999999996,1.5
+114,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+114,Ferretería El Tornillo,,16,6.4,1.6
+114,Taller Mecánico López,,11,9.9,3.3
+114,Taller Mecánico López,,9,18.0,6.336000000000002
+115,Almacén Central (Interno),,32,38.4,16.0
+115,Almacén Central (Interno),,26,23.400000000000002,7.8
+115,Almacén Central (Interno),,24,3.5999999999999996,1.2000000000000002
+116,Taller Mecánico López,,13,11.700000000000001,3.9
+116,Taller Mecánico López,,14,28.0,9.856000000000002
+117,Ferretería El Tornillo,,18,21.599999999999998,9.0
+117,Ferretería El Tornillo,,17,15.3,5.1
+117,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+118,Taller Mecánico López,,12,10.8,3.5999999999999996
+118,Taller Mecánico López,,8,16.0,5.6320000000000014
+119,Construcciones Pérez,,100,120.0,50.0
+119,Construcciones Pérez,,125,50.0,12.5
+119,Construcciones Pérez,,120,240.0,84.48000000000002
+119,Construcciones Pérez,,78,11.7,3.9000000000000004
+120,Ferretería El Tornillo,,11,13.2,5.5
+120,Ferretería El Tornillo,,10,9.0,3.0
+120,Ferretería El Tornillo,,13,5.2,1.3
+120,Taller Mecánico López,,8,7.2,2.4
+120,Taller Mecánico López,,11,22.0,7.7440000000000015
+120,Almacén Central (Interno),,33,39.6,16.5
+120,Almacén Central (Interno),,33,4.95,1.6500000000000001
+120,Ferreterías del Norte,,246,36.9,12.3
+122,Taller Mecánico López,,8,7.2,2.4
+122,Taller Mecánico López,,11,22.0,7.7440000000000015
+123,Ferretería El Tornillo,,19,22.8,9.5
+123,Ferretería El Tornillo,,19,17.1,5.699999999999999
+123,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+124,Taller Mecánico López,,9,8.1,2.6999999999999997
+124,Taller Mecánico López,,10,20.0,7.040000000000002
+125,Almacén Central (Interno),,24,28.799999999999997,12.0
+125,Almacén Central (Interno),,24,21.6,7.199999999999999
+125,Almacén Central (Interno),,35,5.25,1.75
+126,Ferretería El Tornillo,,13,15.6,6.5
+126,Ferretería El Tornillo,,13,11.700000000000001,3.9
+126,Ferretería El Tornillo,,13,5.2,1.3
+126,Construcciones Pérez,,39,15.600000000000001,3.9000000000000004
+126,Construcciones Pérez,,129,258.0,90.81600000000003
+126,Construcciones Pérez,,112,16.8,5.6
+126,Taller Mecánico López,,10,9.0,3.0
+126,Taller Mecánico López,,13,26.0,9.152000000000003
+128,Taller Mecánico López,,7,6.3,2.1
+128,Taller Mecánico López,,11,22.0,7.7440000000000015
+129,Ferretería El Tornillo,,13,15.6,6.5
+129,Ferretería El Tornillo,,19,17.1,5.7
+129,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+130,Taller Mecánico López,,9,8.1,2.6999999999999997
+130,Taller Mecánico López,,11,22.0,7.7440000000000015
+130,Almacén Central (Interno),,24,28.799999999999997,12.0
+130,Almacén Central (Interno),,28,25.2,8.399999999999999
+130,Almacén Central (Interno),,36,5.3999999999999995,1.8
+130,Ferreterías del Norte,,220,88.0,22.0
+130,Ferreterías del Norte,,273,40.949999999999996,13.650000000000002
+132,Ferretería El Tornillo,,11,13.2,5.5
+132,Ferretería El Tornillo,,20,18.0,6.0
+132,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+132,Taller Mecánico López,,11,9.9,3.3
+132,Taller Mecánico López,,8,16.0,5.6320000000000014
+133,Construcciones Pérez,,118,141.6,59.0
+133,Construcciones Pérez,,35,14.0,3.5
+133,Construcciones Pérez,,123,246.0,86.59200000000001
+133,Construcciones Pérez,,51,7.6499999999999995,2.5500000000000003
+134,Taller Mecánico López,,6,5.4,1.7999999999999998
+134,Taller Mecánico López,,7,14.0,4.928000000000001
+135,Ferretería El Tornillo,,16,19.2,8.0
+135,Ferretería El Tornillo,,14,12.6,4.2
+135,Ferretería El Tornillo,,15,6.0,1.5
+135,Almacén Central (Interno),,25,30.0,12.5
+135,Almacén Central (Interno),,35,31.5,10.5
+135,Almacén Central (Interno),,28,4.2,1.4000000000000001
+136,Taller Mecánico López,,11,9.9,3.3
+136,Taller Mecánico López,,13,26.0,9.152000000000003
+138,Ferretería El Tornillo,,22,26.4,11.0
+138,Ferretería El Tornillo,,19,17.1,5.7
+138,Ferretería El Tornillo,,18,7.2,1.8
+138,Taller Mecánico López,,10,9.0,3.0
+138,Taller Mecánico López,,10,20.0,7.040000000000002
+140,Construcciones Pérez,,64,76.8,32.0
+140,Construcciones Pérez,,83,33.2,8.299999999999999
+140,Construcciones Pérez,,106,212.0,74.62400000000002
+140,Construcciones Pérez,,80,12.0,4.0
+140,Taller Mecánico López,,8,7.2,2.4
+140,Taller Mecánico López,,8,16.0,5.6320000000000014
+140,Almacén Central (Interno),,29,26.1,8.7
+140,Almacén Central (Interno),,28,4.2,1.4000000000000001
+140,Ferreterías del Norte,,42,6.3,2.1
+141,Ferretería El Tornillo,,14,12.6,4.2
+141,Ferretería El Tornillo,,5,2.0,0.5
+142,Taller Mecánico López,,12,10.8,3.5999999999999996
+144,Ferretería El Tornillo,,14,16.8,7.0
+144,Ferretería El Tornillo,,18,16.2,5.4
+144,Ferretería El Tornillo,,18,7.2,1.8
+144,Taller Mecánico López,,7,6.3,2.1
+144,Taller Mecánico López,,11,22.0,7.744000000000002
+145,Almacén Central (Interno),,23,27.599999999999998,11.5
+145,Almacén Central (Interno),,36,32.4,10.799999999999999
+145,Almacén Central (Interno),,29,4.35,1.4500000000000002
+146,Taller Mecánico López,,12,10.8,3.5999999999999996
+146,Taller Mecánico López,,15,30.0,10.560000000000002
+147,Ferretería El Tornillo,,20,24.0,10.0
+147,Ferretería El Tornillo,,16,14.4,4.8
+147,Ferretería El Tornillo,,23,9.200000000000001,2.3000000000000003
+147,Construcciones Pérez,,141,169.2,70.5
+147,Construcciones Pérez,,54,21.6,5.4
+147,Construcciones Pérez,,162,324.0,114.04800000000003
+147,Construcciones Pérez,,131,19.65,6.550000000000001
+148,Taller Mecánico López,,9,8.1,2.6999999999999997
+148,Taller Mecánico López,,11,22.0,7.7440000000000015
+150,Ferretería El Tornillo,,24,28.799999999999997,12.0
+150,Ferretería El Tornillo,,24,21.6,7.2
+150,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+150,Taller Mecánico López,,11,9.9,3.3
+150,Taller Mecánico López,,12,24.0,8.448000000000002
+150,Almacén Central (Interno),,32,38.4,16.0
+150,Almacén Central (Interno),,26,23.400000000000002,7.8
+150,Almacén Central (Interno),,33,4.95,1.6500000000000001
+150,Ferreterías del Norte,,139,55.6,13.9
+150,Ferreterías del Norte,,74,11.1,3.7
+152,Taller Mecánico López,,8,7.2,2.4
+152,Taller Mecánico López,,8,16.0,5.6320000000000014
+153,Ferretería El Tornillo,,19,22.8,9.5
+153,Ferretería El Tornillo,,17,15.3,5.1
+153,Ferretería El Tornillo,,16,6.4,1.6
+154,Construcciones Pérez,,93,111.6,46.5
+154,Construcciones Pérez,,147,58.800000000000004,14.7
+154,Construcciones Pérez,,114,17.099999999999998,5.7
+154,Taller Mecánico López,,6,5.4,1.7999999999999998
+154,Taller Mecánico López,,11,22.0,7.7440000000000015
+155,Almacén Central (Interno),,25,30.0,12.5
+155,Almacén Central (Interno),,21,18.900000000000002,6.3
+155,Almacén Central (Interno),,27,4.05,1.35
+156,Ferretería El Tornillo,,23,27.599999999999998,11.5
+156,Ferretería El Tornillo,,15,13.5,4.5
+156,Ferretería El Tornillo,,5,2.0,0.5
+156,Taller Mecánico López,,10,9.0,3.0
+156,Taller Mecánico López,,7,14.0,4.928000000000001
+158,Taller Mecánico López,,10,9.0,3.0
+158,Taller Mecánico López,,8,16.0,5.6320000000000014
+159,Ferretería El Tornillo,,18,21.599999999999998,9.0
+159,Ferretería El Tornillo,,12,10.8,3.5999999999999996
+159,Ferretería El Tornillo,,13,5.2,1.3
+160,Taller Mecánico López,,12,10.8,3.5999999999999996
+160,Taller Mecánico López,,7,14.0,4.928000000000001
+160,Almacén Central (Interno),,39,46.8,19.5
+160,Almacén Central (Interno),,32,28.8,9.6
+160,Almacén Central (Interno),,35,5.25,1.75
+160,Ferreterías del Norte,,167,25.05,8.35
+161,Construcciones Pérez,,71,28.400000000000002,7.1000000000000005
+161,Construcciones Pérez,,143,21.45,7.15
+162,Ferretería El Tornillo,,17,20.4,8.5
+162,Ferretería El Tornillo,,20,18.0,6.0
+162,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+162,Taller Mecánico López,,8,7.2,2.4
+162,Taller Mecánico López,,9,18.0,6.336000000000002
+164,Taller Mecánico López,,7,6.3,2.1
+164,Taller Mecánico López,,11,22.0,7.7440000000000015
+165,Ferretería El Tornillo,,10,12.0,5.0
+165,Ferretería El Tornillo,,6,5.4,1.7999999999999998
+165,Ferretería El Tornillo,,10,4.0,1.0
+165,Almacén Central (Interno),,31,37.199999999999996,15.5
+165,Almacén Central (Interno),,26,23.400000000000002,7.8
+165,Almacén Central (Interno),,30,4.5,1.5
+166,Taller Mecánico López,,10,9.0,3.0
+166,Taller Mecánico López,,9,18.0,6.336000000000002
+168,Ferretería El Tornillo,,11,13.2,5.5
+168,Ferretería El Tornillo,,11,9.9,3.3
+168,Ferretería El Tornillo,,20,8.0,2.0
+168,Construcciones Pérez,,80,96.0,40.0
+168,Construcciones Pérez,,44,88.0,30.97600000000001
+168,Construcciones Pérez,,98,14.7,4.9
+168,Taller Mecánico López,,12,10.8,3.5999999999999996
+168,Taller Mecánico López,,8,16.0,5.6320000000000014
+170,Taller Mecánico López,,9,8.1,2.6999999999999997
+170,Taller Mecánico López,,10,20.0,7.040000000000002
+170,Almacén Central (Interno),,31,37.199999999999996,15.5
+170,Almacén Central (Interno),,31,27.900000000000002,9.3
+170,Almacén Central (Interno),,32,4.8,1.6
+170,Ferreterías del Norte,,381,57.15,19.05
+171,Ferretería El Tornillo,,11,13.2,5.5
+171,Ferretería El Tornillo,,17,15.3,5.1
+171,Ferretería El Tornillo,,1,0.4,0.1
+172,Taller Mecánico López,,10,9.0,3.0
+172,Taller Mecánico López,,10,20.0,7.040000000000002
+174,Ferretería El Tornillo,,20,24.0,10.0
+174,Ferretería El Tornillo,,15,13.5,4.5
+174,Ferretería El Tornillo,,18,7.2,1.8
+174,Taller Mecánico López,,14,12.6,4.2
+174,Taller Mecánico López,,7,14.0,4.928000000000001
+175,Construcciones Pérez,,105,126.0,52.5
+175,Construcciones Pérez,,68,27.200000000000003,6.800000000000001
+175,Construcciones Pérez,,126,252.0,88.70400000000002
+175,Construcciones Pérez,,116,17.4,5.800000000000001
+175,Almacén Central (Interno),,28,33.6,14.0
+175,Almacén Central (Interno),,32,28.8,9.6
+175,Almacén Central (Interno),,41,6.1499999999999995,2.0500000000000003
+176,Taller Mecánico López,,9,8.1,2.6999999999999997
+176,Taller Mecánico López,,13,26.0,9.152000000000003
+177,Ferretería El Tornillo,,18,21.599999999999998,9.0
+177,Ferretería El Tornillo,,15,13.5,4.5
+177,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+178,Taller Mecánico López,,8,7.2,2.4
+178,Taller Mecánico López,,13,26.0,9.152000000000003
+180,Ferretería El Tornillo,,15,18.0,7.5
+180,Ferretería El Tornillo,,17,15.3,5.1
+180,Ferretería El Tornillo,,10,4.0,1.0
+180,Taller Mecánico López,,12,10.8,3.5999999999999996
+180,Taller Mecánico López,,7,14.0,4.928000000000001
+180,Almacén Central (Interno),,29,34.8,14.5
+180,Almacén Central (Interno),,34,30.6,10.2
+180,Almacén Central (Interno),,29,4.35,1.4500000000000002
+180,Ferreterías del Norte,,81,32.4,8.1
+180,Ferreterías del Norte,,10,1.5,0.5
+182,Construcciones Pérez,,90,36.0,9.0
+182,Construcciones Pérez,,112,16.8,5.6000000000000005
+182,Taller Mecánico López,,12,10.8,3.5999999999999996
+182,Taller Mecánico López,,12,24.0,8.448000000000002
+183,Ferretería El Tornillo,,10,12.0,5.0
+183,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+184,Taller Mecánico López,,7,6.3,2.1
+184,Taller Mecánico López,,12,24.0,8.448000000000002
+185,Almacén Central (Interno),,26,31.2,13.0
+185,Almacén Central (Interno),,29,26.1,8.7
+185,Almacén Central (Interno),,34,5.1,1.7000000000000002
+186,Ferretería El Tornillo,,5,6.0,2.5
+186,Ferretería El Tornillo,,14,12.6,4.2
+186,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+186,Taller Mecánico López,,14,12.6,4.2
+186,Taller Mecánico López,,7,14.0,4.928000000000001
+188,Taller Mecánico López,,11,9.9,3.3
+188,Taller Mecánico López,,4,8.0,2.8160000000000007
+189,Ferretería El Tornillo,,9,10.799999999999999,4.5
+189,Ferretería El Tornillo,,15,13.5,4.5
+189,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+189,Construcciones Pérez,,118,141.6,59.0
+189,Construcciones Pérez,,47,94.0,33.08800000000001
+189,Construcciones Pérez,,161,24.15,8.05
+190,Taller Mecánico López,,13,11.700000000000001,3.9
+190,Taller Mecánico López,,10,20.0,7.040000000000002
+190,Almacén Central (Interno),,32,38.4,16.0
+190,Almacén Central (Interno),,28,25.2,8.4
+190,Almacén Central (Interno),,37,5.55,1.85
+190,Ferreterías del Norte,,224,33.6,11.200000000000001
+192,Ferretería El Tornillo,,16,19.2,8.0
+192,Ferretería El Tornillo,,13,11.700000000000001,3.9
+192,Ferretería El Tornillo,,18,7.2,1.8
+192,Taller Mecánico López,,10,9.0,3.0
+192,Taller Mecánico López,,12,24.0,8.448000000000002
+194,Taller Mecánico López,,11,9.9,3.3
+194,Taller Mecánico López,,8,16.0,5.6320000000000014
+195,Ferretería El Tornillo,,15,18.0,7.5
+195,Ferretería El Tornillo,,15,13.5,4.5
+195,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+195,Almacén Central (Interno),,35,42.0,17.5
+195,Almacén Central (Interno),,29,26.1,8.7
+195,Almacén Central (Interno),,29,4.35,1.4500000000000002
+196,Construcciones Pérez,,91,182.0,64.06400000000002
+196,Construcciones Pérez,,19,2.85,0.9500000000000001
+196,Taller Mecánico López,,9,8.1,2.6999999999999997
+196,Taller Mecánico López,,14,28.0,9.856000000000002
+198,Ferretería El Tornillo,,16,19.2,8.0
+198,Ferretería El Tornillo,,10,9.0,3.0
+198,Ferretería El Tornillo,,16,6.4,1.6
+198,Taller Mecánico López,,9,8.1,2.6999999999999997
+198,Taller Mecánico López,,12,24.0,8.448000000000002
+200,Taller Mecánico López,,12,10.8,3.5999999999999996
+200,Taller Mecánico López,,10,20.0,7.040000000000002
+200,Almacén Central (Interno),,23,27.599999999999998,11.5
+200,Almacén Central (Interno),,26,23.400000000000002,7.8
+200,Almacén Central (Interno),,30,4.5,1.5
+200,Ferreterías del Norte,,225,90.0,22.5
+200,Ferreterías del Norte,,30,4.5,1.5
+201,Ferretería El Tornillo,,16,19.2,8.0
+201,Ferretería El Tornillo,,11,9.9,3.3
+201,Ferretería El Tornillo,,15,6.0,1.5
+202,Taller Mecánico López,,12,10.8,3.5999999999999996
+202,Taller Mecánico López,,11,22.0,7.7440000000000015
+203,Construcciones Pérez,,36,43.199999999999996,18.0
+203,Construcciones Pérez,,91,36.4,9.100000000000001
+203,Construcciones Pérez,,47,94.0,33.08800000000001
+203,Construcciones Pérez,,95,14.25,4.75
+204,Ferretería El Tornillo,,16,19.2,8.0
+204,Ferretería El Tornillo,,13,11.700000000000001,3.9
+204,Ferretería El Tornillo,,7,2.8000000000000003,0.7000000000000001
+204,Taller Mecánico López,,10,9.0,3.0
+204,Taller Mecánico López,,8,16.0,5.6320000000000014
+205,Almacén Central (Interno),,29,34.8,14.5
+205,Almacén Central (Interno),,35,31.5,10.5
+205,Almacén Central (Interno),,37,5.55,1.85
+206,Taller Mecánico López,,8,7.2,2.4
+206,Taller Mecánico López,,7,14.0,4.928000000000001
+207,Ferretería El Tornillo,,11,13.2,5.5
+207,Ferretería El Tornillo,,17,15.3,5.1
+207,Ferretería El Tornillo,,20,8.0,2.0
+208,Taller Mecánico López,,12,10.8,3.5999999999999996
+208,Taller Mecánico López,,12,24.0,8.448000000000002
+210,Ferretería El Tornillo,,11,13.2,5.5
+210,Ferretería El Tornillo,,19,17.1,5.7
+210,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+210,Construcciones Pérez,,89,106.8,44.5
+210,Construcciones Pérez,,194,77.60000000000001,19.4
+210,Construcciones Pérez,,126,252.0,88.70400000000002
+210,Construcciones Pérez,,159,23.849999999999998,7.95
+210,Taller Mecánico López,,14,12.6,4.2
+210,Taller Mecánico López,,12,24.0,8.448000000000002
+210,Almacén Central (Interno),,33,39.6,16.5
+210,Almacén Central (Interno),,41,6.1499999999999995,2.0500000000000003
+210,Ferreterías del Norte,,54,8.1,2.7
+212,Taller Mecánico López,,11,9.9,3.3
+212,Taller Mecánico López,,7,14.0,4.928000000000001
+213,Ferretería El Tornillo,,7,8.4,3.5
+213,Ferretería El Tornillo,,11,9.9,3.3
+213,Ferretería El Tornillo,,21,8.4,2.1
+214,Taller Mecánico López,,11,9.9,3.3
+214,Taller Mecánico López,,6,12.0,4.224000000000001
+215,Almacén Central (Interno),,29,34.8,14.5
+215,Almacén Central (Interno),,32,28.8,9.6
+215,Almacén Central (Interno),,26,3.9,1.3
+216,Ferretería El Tornillo,,16,19.2,8.0
+216,Ferretería El Tornillo,,17,15.3,5.1
+216,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+216,Taller Mecánico López,,9,8.1,2.6999999999999997
+216,Taller Mecánico López,,10,20.0,7.040000000000002
+217,Construcciones Pérez,,127,152.4,63.5
+217,Construcciones Pérez,,67,26.8,6.7
+217,Construcciones Pérez,,84,168.0,59.13600000000002
+217,Construcciones Pérez,,102,15.299999999999999,5.1000000000000005
+218,Taller Mecánico López,,12,10.8,3.5999999999999996
+218,Taller Mecánico López,,9,18.0,6.336000000000002
+219,Ferretería El Tornillo,,13,15.6,6.5
+219,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+219,Ferretería El Tornillo,,12,4.800000000000001,1.2000000000000002
+220,Taller Mecánico López,,10,9.0,3.0
+220,Taller Mecánico López,,7,14.0,4.928000000000001
+220,Almacén Central (Interno),,27,32.4,13.5
+220,Almacén Central (Interno),,36,32.4,10.799999999999999
+220,Almacén Central (Interno),,28,4.2,1.4000000000000001
+220,Ferreterías del Norte,,61,24.400000000000002,6.1000000000000005
+220,Ferreterías del Norte,,115,17.25,5.75
+222,Ferretería El Tornillo,,8,9.6,4.0
+222,Ferretería El Tornillo,,18,16.2,5.3999999999999995
+222,Ferretería El Tornillo,,15,6.0,1.5
+222,Taller Mecánico López,,7,6.3,2.1
+222,Taller Mecánico López,,11,22.0,7.7440000000000015
+224,Construcciones Pérez,,84,33.6,8.4
+224,Construcciones Pérez,,169,25.349999999999998,8.45
+224,Taller Mecánico López,,9,8.1,2.6999999999999997
+224,Taller Mecánico López,,9,18.0,6.336000000000002
+225,Ferretería El Tornillo,,14,16.8,7.0
+225,Ferretería El Tornillo,,13,11.700000000000001,3.9
+225,Ferretería El Tornillo,,23,9.200000000000001,2.3000000000000003
+225,Almacén Central (Interno),,29,34.8,14.5
+225,Almacén Central (Interno),,35,31.5,10.5
+225,Almacén Central (Interno),,29,4.35,1.4500000000000002
+226,Taller Mecánico López,,13,11.700000000000001,3.9
+226,Taller Mecánico López,,12,24.0,8.448000000000002
+228,Ferretería El Tornillo,,18,21.599999999999998,9.0
+228,Ferretería El Tornillo,,17,15.3,5.1
+228,Ferretería El Tornillo,,21,8.4,2.1
+228,Taller Mecánico López,,9,8.1,2.6999999999999997
+228,Taller Mecánico López,,11,22.0,7.7440000000000015
+230,Taller Mecánico López,,10,9.0,3.0
+230,Taller Mecánico López,,8,16.0,5.6320000000000014
+230,Almacén Central (Interno),,27,32.4,13.5
+230,Almacén Central (Interno),,25,22.5,7.5
+230,Almacén Central (Interno),,24,3.5999999999999996,1.2000000000000002
+230,Ferreterías del Norte,,80,32.0,8.0
+230,Ferreterías del Norte,,296,44.4,14.8
+231,Ferretería El Tornillo,,27,32.4,13.5
+231,Ferretería El Tornillo,,11,9.9,3.3
+231,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+231,Construcciones Pérez,,80,96.0,40.0
+231,Construcciones Pérez,,99,39.6,9.9
+231,Construcciones Pérez,,130,260.0,91.52000000000004
+231,Construcciones Pérez,,106,15.899999999999999,5.300000000000001
+232,Taller Mecánico López,,13,11.700000000000001,3.9
+232,Taller Mecánico López,,13,26.0,9.152000000000003
+234,Ferretería El Tornillo,,9,10.799999999999999,4.5
+234,Ferretería El Tornillo,,15,13.5,4.5
+234,Ferretería El Tornillo,,9,3.6,0.9
+234,Taller Mecánico López,,10,9.0,3.0
+234,Taller Mecánico López,,13,26.0,9.152000000000003
+235,Almacén Central (Interno),,25,30.0,12.5
+235,Almacén Central (Interno),,34,30.6,10.2
+235,Almacén Central (Interno),,29,4.35,1.4500000000000002
+236,Taller Mecánico López,,11,9.9,3.3
+236,Taller Mecánico López,,9,18.0,6.336000000000002
+237,Ferretería El Tornillo,,13,15.6,6.5
+237,Ferretería El Tornillo,,17,15.3,5.1
+237,Ferretería El Tornillo,,10,4.0,1.0
+238,Construcciones Pérez,,118,47.2,11.8
+238,Construcciones Pérez,,76,11.4,3.8000000000000003
+238,Taller Mecánico López,,14,12.6,4.2
+238,Taller Mecánico López,,11,22.0,7.7440000000000015
+240,Ferretería El Tornillo,,8,9.6,4.0
+240,Ferretería El Tornillo,,17,15.3,5.1
+240,Ferretería El Tornillo,,15,6.0,1.5
+240,Taller Mecánico López,,8,7.2,2.4
+240,Taller Mecánico López,,9,18.0,6.336000000000002
+240,Almacén Central (Interno),,38,45.6,19.0
+240,Almacén Central (Interno),,26,23.400000000000002,7.8
+240,Almacén Central (Interno),,34,5.1,1.7
+240,Ferreterías del Norte,,231,34.65,11.55
+242,Taller Mecánico López,,11,9.9,3.3
+242,Taller Mecánico López,,13,26.0,9.152000000000001
+243,Ferretería El Tornillo,,15,18.0,7.5
+243,Ferretería El Tornillo,,10,9.0,3.0
+243,Ferretería El Tornillo,,11,4.4,1.1
+244,Taller Mecánico López,,7,6.3,2.1
+244,Taller Mecánico López,,12,24.0,8.448000000000002
+245,Construcciones Pérez,,90,108.0,45.0
+245,Construcciones Pérez,,83,33.2,8.3
+245,Construcciones Pérez,,105,15.75,5.25
+245,Almacén Central (Interno),,29,34.8,14.5
+245,Almacén Central (Interno),,27,24.3,8.1
+245,Almacén Central (Interno),,32,4.8,1.6
+246,Ferretería El Tornillo,,9,10.799999999999999,4.5
+246,Ferretería El Tornillo,,12,10.8,3.6
+246,Ferretería El Tornillo,,11,4.4,1.1
+246,Taller Mecánico López,,10,9.0,3.0
+246,Taller Mecánico López,,10,20.0,7.040000000000002
+248,Taller Mecánico López,,8,7.2,2.4
+248,Taller Mecánico López,,11,22.0,7.7440000000000015
+249,Ferretería El Tornillo,,17,20.4,8.5
+249,Ferretería El Tornillo,,3,2.7,0.8999999999999999
+249,Ferretería El Tornillo,,17,6.800000000000001,1.7000000000000002
+250,Taller Mecánico López,,12,10.8,3.5999999999999996
+250,Taller Mecánico López,,10,20.0,7.040000000000002
+250,Almacén Central (Interno),,26,31.2,13.0
+250,Almacén Central (Interno),,28,25.2,8.4
+250,Almacén Central (Interno),,31,4.6499999999999995,1.55
+250,Ferreterías del Norte,,191,28.65,9.55
+252,Ferretería El Tornillo,,10,12.0,5.0
+252,Ferretería El Tornillo,,20,18.0,6.0
+252,Ferretería El Tornillo,,16,6.4,1.6
+252,Construcciones Pérez,,91,109.2,45.5
+252,Construcciones Pérez,,96,38.400000000000006,9.6
+252,Construcciones Pérez,,109,16.349999999999998,5.45
+252,Taller Mecánico López,,11,9.9,3.3
+252,Taller Mecánico López,,14,28.0,9.856000000000002
+254,Taller Mecánico López,,12,10.8,3.5999999999999996
+254,Taller Mecánico López,,11,22.0,7.7440000000000015
+255,Ferretería El Tornillo,,15,18.0,7.5
+255,Ferretería El Tornillo,,17,15.3,5.1
+255,Ferretería El Tornillo,,14,5.6000000000000005,1.4000000000000001
+255,Almacén Central (Interno),,33,39.6,16.5
+255,Almacén Central (Interno),,34,30.6,10.2
+255,Almacén Central (Interno),,33,4.95,1.6500000000000001
+256,Taller Mecánico López,,12,10.8,3.5999999999999996
+256,Taller Mecánico López,,12,24.0,8.448000000000002
+258,Ferretería El Tornillo,,18,21.599999999999998,9.0
+258,Ferretería El Tornillo,,7,6.3,2.1
+258,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+258,Taller Mecánico López,,12,10.8,3.5999999999999996
+258,Taller Mecánico López,,9,18.0,6.336000000000002
+259,Construcciones Pérez,,111,44.400000000000006,11.1
+259,Construcciones Pérez,,128,256.0,93.18400000000001
+259,Construcciones Pérez,,165,24.75,8.25
+260,Taller Mecánico López,,10,9.0,3.0
+260,Taller Mecánico López,,10,20.0,8.0
+260,Almacén Central (Interno),,30,36.0,15.0
+260,Almacén Central (Interno),,30,27.0,9.0
+260,Almacén Central (Interno),,28,4.2,1.4000000000000001
+260,Ferreterías del Norte,,109,16.349999999999998,5.45
+261,Ferretería El Tornillo,,17,20.4,8.5
+261,Ferretería El Tornillo,,21,18.900000000000002,6.3
+261,Ferretería El Tornillo,,15,6.0,1.5
+262,Taller Mecánico López,,11,9.9,3.3
+262,Taller Mecánico López,,13,26.0,10.400000000000002
+264,Ferretería El Tornillo,,20,24.0,10.0
+264,Ferretería El Tornillo,,10,9.0,3.0
+264,Ferretería El Tornillo,,18,7.2,1.8000000000000003
+264,Taller Mecánico López,,10,9.0,3.0
+264,Taller Mecánico López,,12,24.0,9.600000000000001
+265,Almacén Central (Interno),,29,34.8,14.5
+265,Almacén Central (Interno),,29,26.1,8.7
+265,Almacén Central (Interno),,22,3.3,1.1
+266,Construcciones Pérez,,135,54.0,13.5
+266,Construcciones Pérez,,98,196.0,69.76000000000002
+266,Construcciones Pérez,,131,19.65,6.550000000000001
+266,Taller Mecánico López,,10,9.0,3.0
+266,Taller Mecánico López,,11,22.0,7.7440000000000015
+267,Ferretería El Tornillo,,13,15.6,6.5
+267,Ferretería El Tornillo,,21,18.900000000000002,6.3
+267,Ferretería El Tornillo,,18,7.2,1.8
+268,Taller Mecánico López,,10,9.0,3.0
+268,Taller Mecánico López,,12,24.0,8.448000000000002
+270,Ferretería El Tornillo,,13,15.6,6.5
+270,Ferretería El Tornillo,,16,14.4,4.8
+270,Ferretería El Tornillo,,19,7.6000000000000005,1.9000000000000001
+270,Taller Mecánico López,,7,6.3,2.1
+270,Taller Mecánico López,,10,20.0,7.040000000000002
+270,Almacén Central (Interno),,34,40.8,17.0
+270,Almacén Central (Interno),,28,25.2,8.4
+270,Almacén Central (Interno),,30,4.5,1.5
+270,Ferreterías del Norte,,222,33.3,11.100000000000001
+272,Taller Mecánico López,,9,8.1,2.6999999999999997
+272,Taller Mecánico López,,10,20.0,7.040000000000002
+273,Ferretería El Tornillo,,16,19.2,8.0
+273,Ferretería El Tornillo,,13,11.700000000000001,3.9
+273,Ferretería El Tornillo,,10,4.0,1.0
+273,Construcciones Pérez,,83,99.6,41.5
+273,Construcciones Pérez,,108,43.2,10.8
+273,Construcciones Pérez,,65,130.0,45.76000000000001
+274,Taller Mecánico López,,5,4.5,1.5
+274,Taller Mecánico López,,9,18.0,6.336000000000002
+275,Almacén Central (Interno),,27,32.4,13.5
+275,Almacén Central (Interno),,26,23.400000000000002,7.8
+275,Almacén Central (Interno),,27,4.05,1.35
+276,Ferretería El Tornillo,,9,10.799999999999999,4.5
+276,Ferretería El Tornillo,,10,9.0,3.0
+276,Ferretería El Tornillo,,5,2.0,0.5
+276,Taller Mecánico López,,12,10.8,3.5999999999999996
+276,Taller Mecánico López,,11,22.0,7.7440000000000015
