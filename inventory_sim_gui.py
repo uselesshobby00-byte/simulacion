@@ -77,10 +77,16 @@ class InterfazSimulador:
         self.lbl_dia = ttk.Label(frame_estado, text="Día: 0", font=("Arial", 12, "bold"))
         self.lbl_dia.pack(anchor=tk.W)
         
-        self.lbl_saldo = ttk.Label(frame_estado, text="Saldo: $0.00", font=("Arial", 11))
+        self.lbl_saldo = ttk.Label(frame_estado, text="Saldo: L.0.00", font=("Arial", 11))
         self.lbl_saldo.pack(anchor=tk.W)
         
-        self.lbl_utilidad = ttk.Label(frame_estado, text="Utilidad Neta: $0.00", font=("Arial", 11))
+        self.lbl_ingresos = ttk.Label(frame_estado, text="Ingresos Totales: L.0.00", font=("Arial", 11))
+        self.lbl_ingresos.pack(anchor=tk.W)
+
+        self.lbl_egresos = ttk.Label(frame_estado, text="Egresos Totales: L.0.00"   , font=("Arial", 11))
+        self.lbl_egresos.pack(anchor=tk.W)
+
+        self.lbl_utilidad = ttk.Label(frame_estado, text="Utilidad Neta: L.0.00", font=("Arial", 11))
         self.lbl_utilidad.pack(anchor=tk.W)
         
         self.lbl_desabastecimientos = ttk.Label(frame_estado, text="Desabastecimientos: 0")
@@ -184,16 +190,16 @@ class InterfazSimulador:
         # Crear productos de ejemplo
         productos_ejemplo = [
             Producto("PROD001", "Tornillo M6", costo_unitario=0.5, precio_venta=1.2, 
-                     punto_pedido=250, demanda_estimada=10, tiempo_reposicion=3),
+                     punto_pedido=100, demanda_estimada=10, tiempo_reposicion=3),
             Producto("PROD002", "Tuerca M6", costo_unitario=0.3, precio_venta=0.9,
-                     punto_pedido=250, demanda_estimada=12, tiempo_reposicion=3),
+                     punto_pedido=100, demanda_estimada=12, tiempo_reposicion=3),
             Producto("PROD003", "Arandela", costo_unitario=0.1, precio_venta=0.4,
-                     punto_pedido=250, demanda_estimada=20, tiempo_reposicion=2)
+                     punto_pedido=100, demanda_estimada=20, tiempo_reposicion=2)
         ]
         
         for prod in productos_ejemplo:
             # Agregar inventario inicial
-            prod.agregar_lote(400, prod.costo_unitario, self.simulador.fecha_actual)
+            prod.agregar_lote(200, prod.costo_unitario, self.simulador.fecha_actual)
             self.simulador.agregar_producto(prod)
             self.historia_inventario[prod.id] = []
         
@@ -218,19 +224,19 @@ class InterfazSimulador:
                     frecuencia_compra=1, cantidad_promedio=15, prioridad=1),
             Cliente("CLI002", "Construcciones ABC", TipoCliente.MAYORISTA,
                     productos_solicitados=["PROD001", "PROD003"],
-                    frecuencia_compra=5, cantidad_promedio=50, prioridad=4),
+                    frecuencia_compra=5, cantidad_promedio=50, prioridad=1),
             Cliente("CLI003", "Taller Local", TipoCliente.MINORISTA,
                     productos_solicitados=["PROD002", "PROD003"],
-                    frecuencia_compra=1, cantidad_promedio=20, prioridad=2),
+                    frecuencia_compra=1, cantidad_promedio=20, prioridad=1),
             Cliente("CLI003", "Fernando", TipoCliente.MINORISTA,
                     productos_solicitados=["PROD002"],
-                    frecuencia_compra=1, cantidad_promedio=20, prioridad=1),
+                    frecuencia_compra=2, cantidad_promedio=20, prioridad=1),
             Cliente("CLI003", "CAS", TipoCliente.MINORISTA,
                     productos_solicitados=["PROD001", "PROD002", "PROD003"],
-                    frecuencia_compra=3, cantidad_promedio=20, prioridad=5),
+                    frecuencia_compra=1, cantidad_promedio=20, prioridad=1),
             Cliente("CLI003", "Ernesto", TipoCliente.MAYORISTA,
                     productos_solicitados=["PROD001", "PROD003"],
-                    frecuencia_compra=5, cantidad_promedio=50, prioridad=4)
+                    frecuencia_compra=5, cantidad_promedio=50, prioridad=1)
         ]
         
         for cli in clientes_ejemplo:
@@ -298,8 +304,10 @@ class InterfazSimulador:
         
         # Actualizar etiquetas
         self.lbl_dia.config(text=f"Día: {estado['dia']}")
-        self.lbl_saldo.config(text=f"Saldo: ${estado['finanzas']['saldo']:.2f}")
-        self.lbl_utilidad.config(text=f"Utilidad Neta: ${estado['finanzas']['utilidad']:.2f}")
+        self.lbl_saldo.config(text=f"Saldo: L.{estado['finanzas']['saldo']:.2f}")
+        self.lbl_ingresos.config(text=f"Ingresos Totales: L.{estado['finanzas']['ingresos']:.2f}")
+        self.lbl_egresos.config(text=f"Egresos Totales: L.{estado['finanzas']['egresos']:.2f}")
+        self.lbl_utilidad.config(text=f"Utilidad Neta: L.{estado['finanzas']['utilidad']:.2f}")
         self.lbl_desabastecimientos.config(text=f"Desabastecimientos: {estado['desabastecimientos']}")
         self.lbl_politica.config(text=f"Política: {estado['politica']}")
         
@@ -364,7 +372,7 @@ class InterfazSimulador:
         self.ax_finanzas.clear()
         self.ax_finanzas.set_title("Estado Financiero")
         self.ax_finanzas.set_xlabel("Día")
-        self.ax_finanzas.set_ylabel("Monto ($)")
+        self.ax_finanzas.set_ylabel("Monto (L.)")
         self.ax_finanzas.grid(True, alpha=0.3)
         
         dias = self.historia_financiera['dias']
@@ -398,13 +406,15 @@ class InterfazSimulador:
             texto = f"Día {evento['dia']} - {evento['tipo']}: "
             
             if evento['tipo'] == 'VENTA':
-                texto += f"{evento['cliente']} compró {evento['cantidad']} de {evento['producto']} (+${evento['ingreso']:.2f})"
+                texto += f"{evento['cliente']} compró {evento['cantidad']} de {evento['producto']} (+ L. {evento['ingreso']:.2f})"
             elif evento['tipo'] == 'DESABASTECIMIENTO':
-                texto += f"{evento['cliente']} no pudo comprar {evento['cantidad']} de {evento['producto']} (-${evento['penalizacion']:.2f})"
+                texto += f"{evento['cliente']} no pudo comprar {evento['cantidad']} de {evento['producto']} (- L. {evento['penalizacion']:.2f})"
             elif evento['tipo'] == 'PEDIDO':
-                texto += f"Pedido a {evento['proveedor']}: {evento['cantidad']} de {evento['producto']} (-${evento['costo']:.2f})"
+                texto += f"Pedido a {evento['proveedor']}: {evento['cantidad']} de {evento['producto']} (- L. {evento['costo']:.2f})"
             elif evento['tipo'] == 'RECEPCION':
                 texto += f"Recibido: {evento['cantidad']} de {evento['producto']}"
+            elif evento['tipo'] == 'COSTOS POR ALMACENAMIENTO':
+                texto += f"(- L. {evento['Costo']:.2f})"
             
             self.text_eventos.insert(tk.END, texto + "\n")
             self.text_eventos.see(tk.END)

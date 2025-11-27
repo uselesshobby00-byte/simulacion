@@ -387,7 +387,8 @@ class SimuladorInventario:
             producto = self.productos[entrega['producto_id']]
             producto.agregar_lote(entrega['cantidad'], entrega['costo'] / entrega['cantidad'], self.fecha_actual)
             
-            self.finanzas.registrar_egreso(entrega['costo'], f"Compra a {entrega['proveedor'].nombre}", self.fecha_actual)
+            #no tiene sentido registrar egreso aquí porque ya se registró al hacer el pedido
+            #self.finanzas.registrar_egreso(entrega['costo'], f"Compra a {entrega['proveedor'].nombre}", self.fecha_actual)
             
             self.pedidos_pendientes.remove(entrega)
             
@@ -408,6 +409,14 @@ class SimuladorInventario:
         
         if costo_total > 0:
             self.finanzas.registrar_egreso(costo_total, "Almacenamiento diario", self.fecha_actual)
+            self.eventos_log.append({
+                'dia': self.dia_simulacion,
+                'tipo': 'COSTOS POR ALMACENAMIENTO',
+                'Costo': costo_total
+            })
+
+
+        
     
     def obtener_estado(self) -> Dict:
         """Retorna el estado actual de la simulación"""
@@ -478,8 +487,10 @@ if __name__ == "__main__":
     # Mostrar resultados
     estado = sim.obtener_estado()
     print(f"\n=== Resultados después de {estado['dia']} días ===")
-    print(f"Saldo actual: ${estado['finanzas']['saldo']:.2f}")
-    print(f"Utilidad neta: ${estado['finanzas']['utilidad']:.2f}")
+    print(f"Saldo actual: L. {estado['finanzas']['saldo']:.2f}")
+    print(f"Ingresos totales: L. {estado['finanzas']['ingresos']:.2f}")
+    print(f"Egresos totales: L. {estado['finanzas']['egresos']:.2f}")
+    print(f"Utilidad neta: L. {estado['finanzas']['utilidad']:.2f}")
     print(f"Desabastecimientos: {estado['desabastecimientos']}")
     print(f"Política actual: {estado['politica']}")
     
