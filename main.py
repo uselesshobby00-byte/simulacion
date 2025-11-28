@@ -208,6 +208,7 @@ def main():
         
         # Crear interfaz gráfica
         app = InterfazPrincipal(root, simulador)
+
         
         # Configurar cierre de ventana
         def on_closing():

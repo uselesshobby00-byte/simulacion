@@ -47,6 +47,8 @@ class PanelGraficas:
         }
         
         self._crear_widgets()
+        
+        
     
     def _crear_widgets(self):
         """Crea todos los widgets del panel"""
@@ -66,6 +68,9 @@ class PanelGraficas:
         
         # Pestaña 4: Métricas
         self._crear_pestaña_metricas()
+
+
+
     
     def _crear_pestaña_inventario(self):
         """Crea la pestaña de inventario"""
@@ -96,6 +101,7 @@ class PanelGraficas:
                                fontsize=14, color='gray')
         
         self.canvas_inventario.draw()
+
     
     def _crear_pestaña_finanzas(self):
         """Crea la pestaña de finanzas"""
@@ -235,7 +241,7 @@ class PanelGraficas:
         self._actualizar_historia(estado)
         
         # Actualizar gráfica de inventario
-        self._actualizar_grafica_inventario(simulador)
+        self._actualizar_grafica_inventario()
         
         # Actualizar gráfica financiera
         self._actualizar_grafica_finanzas()
@@ -267,10 +273,10 @@ class PanelGraficas:
                     'dia':dia
                 }
             
-            if len(self.historia_inventario[prod_id]['niveles']) < dia:
+            if len(self.historia_inventario[prod_id]['niveles']) <= dia:
                 self.historia_inventario[prod_id]['niveles'].append(datos['inventario'])
     
-    def _actualizar_grafica_inventario(self, simulador):
+    def _actualizar_grafica_inventario(self):
         """Actualiza la gráfica de inventario"""
         self.ax_inventario.clear()
         
@@ -285,8 +291,10 @@ class PanelGraficas:
             
             for i, (prod_id, datos) in enumerate(self.historia_inventario.items()):
                 if datos['niveles']:
-                    dias = self.historia_finanzas['dias'][1:]
+                    #dias = self.historia_finanzas['dias'][1:]
                     #dias = list(range(1, len(datos['niveles']) + 1))
+                    dias = list(range(len(datos['niveles'])))
+
                     color = obtener_color_producto(i)
 
                     # Línea de inventario

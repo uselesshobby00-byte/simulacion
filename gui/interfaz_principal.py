@@ -41,11 +41,13 @@ class InterfazPrincipal:
         
         # Crear componentes de la interfaz
         self._crear_menu()
-        self._crear_interfaz()
+        self._crear_interfaz()   
+        
         
         # Si hay simulador, actualizar interfaz
         if self.simulador:
             self._actualizar_interfaz_completa()
+        
     
     def _configurar_ventana(self):
         """Configura las propiedades de la ventana principal"""
@@ -123,9 +125,10 @@ class InterfazPrincipal:
         # Panel de gráficas (derecho)
         self.panel_graficas = PanelGraficas(frame_contenedor)
         self.panel_graficas.frame.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
-        
         # Barra de estado (inferior)
         self._crear_barra_estado()
+        
+        
     
     def _crear_barra_estado(self):
         """Crea la barra de estado en la parte inferior"""
@@ -275,6 +278,8 @@ class InterfazPrincipal:
         
         # Actualizar eventos
         eventos_recientes = self.simulador.obtener_eventos_recientes(100)
+        #eventos_recientes = self.simulador.eventos_log[self.simulador.indice_inicio_dia:]
+        
         self.panel_graficas.actualizar_eventos(eventos_recientes)
     
     def _actualizar_barra_estado(self, mensaje: str):
