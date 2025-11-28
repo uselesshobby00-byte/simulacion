@@ -274,6 +274,8 @@ class SimuladorInventario:
                 
                 self.pedidos_pendientes.append(pedido)
                 
+                self.finanzas.registrar_egreso(decision.costo_total, f"Pedido a: {decision.proveedor.nombre}, Producto: {decision.producto_id}, Cantidad: {decision.cantidad}", self.fecha_actual)
+
                 # Registrar evento
                 self.eventos_log.append(Evento(
                     dia=self.dia_simulacion,
@@ -303,13 +305,6 @@ class SimuladorInventario:
             )
             
             if exito:
-                # Registrar egreso financiero
-                self.finanzas.registrar_egreso(
-                    entrega.costo,
-                    f"Compra a {entrega.proveedor.nombre}",
-                    self.fecha_actual,
-                    "COMPRA"
-                )
                 
                 # Registrar evento
                 self.eventos_log.append(Evento(
@@ -413,6 +408,8 @@ class SimuladorInventario:
         Returns:
             Lista de eventos recientes
         """
+
+        
         eventos_recientes = self.eventos_log[-cantidad:]
         return [
             {

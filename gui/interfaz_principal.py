@@ -222,12 +222,13 @@ class InterfazPrincipal:
         # Simular día por día con actualización de progreso
         for i in range(num_dias):
             self.simulador.avanzar_dia()
+            self._actualizar_interfaz_completa()
             progreso['value'] = ((i + 1) / num_dias) * 100
             ventana_progreso.update()
         
         ventana_progreso.destroy()
         
-        self._actualizar_interfaz_completa()
+        #self._actualizar_interfaz_completa()
         self._actualizar_barra_estado(f"Simulación de {num_dias} días completada")
         messagebox.showinfo("Completado", f"Simulación de {num_dias} días completada exitosamente")
     

@@ -37,9 +37,9 @@ def inicializar_simulacion_ejemplo():
             nombre="Tornillo M6",
             costo_unitario=0.5,
             precio_venta=1.2,
-            punto_pedido=50,
+            punto_pedido=200,
             demanda_estimada=10,
-            tiempo_reposicion=3,
+            tiempo_reposicion=1,
             capacidad_maxima=500
         ),
         Producto(
@@ -47,9 +47,9 @@ def inicializar_simulacion_ejemplo():
             nombre="Tuerca M6",
             costo_unitario=0.3,
             precio_venta=0.9,
-            punto_pedido=60,
+            punto_pedido=200,
             demanda_estimada=12,
-            tiempo_reposicion=3,
+            tiempo_reposicion=1,
             capacidad_maxima=600
         ),
         Producto(
@@ -57,9 +57,9 @@ def inicializar_simulacion_ejemplo():
             nombre="Arandela",
             costo_unitario=0.1,
             precio_venta=0.4,
-            punto_pedido=100,
+            punto_pedido=200,
             demanda_estimada=20,
-            tiempo_reposicion=2,
+            tiempo_reposicion=1,
             capacidad_maxima=1000
         ),
         Producto(
@@ -67,9 +67,9 @@ def inicializar_simulacion_ejemplo():
             nombre="Perno 1/4",
             costo_unitario=0.8,
             precio_venta=2.0,
-            punto_pedido=40,
+            punto_pedido=200,
             demanda_estimada=8,
-            tiempo_reposicion=4,
+            tiempo_reposicion=1,
             capacidad_maxima=400
         ),
         Producto(
@@ -79,7 +79,7 @@ def inicializar_simulacion_ejemplo():
             precio_venta=0.15,
             punto_pedido=200,
             demanda_estimada=50,
-            tiempo_reposicion=2,
+            tiempo_reposicion=1,
             capacidad_maxima=2000
         )
     ]
@@ -87,7 +87,7 @@ def inicializar_simulacion_ejemplo():
     # Agregar productos con inventario inicial
     for producto in productos:
         producto.agregar_lote(
-            cantidad=100,
+            cantidad=400,
             costo=producto.costo_unitario,
             fecha=simulador.fecha_actual
         )
@@ -99,7 +99,7 @@ def inicializar_simulacion_ejemplo():
             id="PROV001",
             nombre="Suministros ABC",
             productos_ofrecidos=["PROD001", "PROD002", "PROD003"],
-            tiempo_entrega=3,
+            tiempo_entrega=1,
             costo_base=0.5,
             fiabilidad=0.95,
             minimo_pedido=20,
@@ -112,7 +112,7 @@ def inicializar_simulacion_ejemplo():
             id="PROV002",
             nombre="Distribuidora XYZ",
             productos_ofrecidos=["PROD001", "PROD003", "PROD004"],
-            tiempo_entrega=2,
+            tiempo_entrega=1,
             costo_base=0.55,
             fiabilidad=0.98,
             minimo_pedido=15,
@@ -124,7 +124,7 @@ def inicializar_simulacion_ejemplo():
             id="PROV003",
             nombre="Ferretería Industrial",
             productos_ofrecidos=["PROD002", "PROD004", "PROD005"],
-            tiempo_entrega=4,
+            tiempo_entrega=1,
             costo_base=0.48,
             fiabilidad=0.90,
             minimo_pedido=30,
@@ -144,9 +144,9 @@ def inicializar_simulacion_ejemplo():
             nombre="Ferretería El Tornillo",
             tipo=TipoCliente.MINORISTA,
             productos_solicitados=["PROD001", "PROD002", "PROD003"],
-            frecuencia_compra=3,
-            cantidad_promedio=15,
-            prioridad=3,
+            frecuencia_compra=2,
+            cantidad_promedio=25,
+            prioridad=1,
             variabilidad=0.3
         ),
         Cliente(
@@ -154,19 +154,19 @@ def inicializar_simulacion_ejemplo():
             nombre="Construcciones Pérez",
             tipo=TipoCliente.MAYORISTA,
             productos_solicitados=["PROD001", "PROD003", "PROD004", "PROD005"],
-            frecuencia_compra=7,
+            frecuencia_compra=5,
             cantidad_promedio=50,
-            prioridad=4,
+            prioridad=1,
             variabilidad=0.4
         ),
         Cliente(
             id="CLI003",
             nombre="Taller Mecánico López",
-            tipo=TipoCliente.MINORISTA,
+            tipo=TipoCliente.MAYORISTA,
             productos_solicitados=["PROD002", "PROD004"],
-            frecuencia_compra=2,
-            cantidad_promedio=10,
-            prioridad=2,
+            frecuencia_compra=3,
+            cantidad_promedio=20,
+            prioridad=1,
             variabilidad=0.2
         ),
         Cliente(
@@ -174,19 +174,19 @@ def inicializar_simulacion_ejemplo():
             nombre="Almacén Central (Interno)",
             tipo=TipoCliente.INTERNO,
             productos_solicitados=["PROD001", "PROD002", "PROD005"],
-            frecuencia_compra=5,
-            cantidad_promedio=25,
-            prioridad=5,
+            frecuencia_compra=1,
+            cantidad_promedio=30,
+            prioridad=1,
             variabilidad=0.15
         ),
         Cliente(
             id="CLI005",
             nombre="Ferreterías del Norte",
-            tipo=TipoCliente.MAYORISTA,
+            tipo=TipoCliente.MINORISTA,
             productos_solicitados=["PROD003", "PROD005"],
-            frecuencia_compra=10,
-            cantidad_promedio=100,
-            prioridad=3,
+            frecuencia_compra=1,
+            cantidad_promedio=20,
+            prioridad=1,
             variabilidad=0.5
         )
     ]
