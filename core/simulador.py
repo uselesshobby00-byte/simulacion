@@ -335,6 +335,16 @@ class SimuladorInventario:
                 self.fecha_actual,
                 "ALMACENAMIENTO"
             )
+            # Registrar evento en el log
+            self.eventos_log.append(Evento(
+                dia=self.dia_simulacion,
+                tipo=TipoEvento.COSTOS_POR_ALMACENAMIENTO,
+                datos={
+                    f"Costo por almacenamiento del dia: L. {costo_total:.2f}"
+                }
+            ))
+
+
     
     def _evaluar_sistema(self):
         """Evaluación periódica del desempeño del sistema"""
@@ -408,9 +418,12 @@ class SimuladorInventario:
         Returns:
             Lista de eventos recientes
         """
-
+        if cantidad is None or cantidad <= 0:
+            eventos_recientes = self.eventos_log
+        else:
+            eventos_recientes = self.eventos_log[-cantidad:]
         
-        eventos_recientes = self.eventos_log[-cantidad:]
+        #eventos_recientes = self.eventos_log[-cantidad:]
         return [
             {
                 'dia': e.dia,
@@ -440,8 +453,8 @@ class SimuladorInventario:
         
         # Reiniciar productos
         for producto in self.productos.values():
-            producto.nivel_inventario = 0
-            producto.lotes = []
+            producto.nivel_inventario = 400
+            #producto.lotes = []
         
         # Reiniciar clientes
         for cliente in self.clientes:

@@ -145,11 +145,11 @@ class ExportadorDatos:
             # Finanzas
             finanzas = estado_final.get('finanzas', {})
             writer.writerow(['ESTADO FINANCIERO'])
-            writer.writerow(['Saldo inicial', f"${finanzas.get('saldo_inicial', 0):,.2f}"])
-            writer.writerow(['Saldo final', f"${finanzas.get('saldo_actual', 0):,.2f}"])
-            writer.writerow(['Ingresos totales', f"${finanzas.get('ingresos_totales', 0):,.2f}"])
-            writer.writerow(['Egresos totales', f"${finanzas.get('egresos_totales', 0):,.2f}"])
-            writer.writerow(['Utilidad neta', f"${finanzas.get('utilidad_neta', 0):,.2f}"])
+            writer.writerow(['Saldo inicial', f"L. {finanzas.get('saldo_inicial', 0):,.2f}"])
+            writer.writerow(['Saldo final', f"L. {finanzas.get('saldo_actual', 0):,.2f}"])
+            writer.writerow(['Ingresos totales', f"L. {finanzas.get('ingresos_totales', 0):,.2f}"])
+            writer.writerow(['Egresos totales', f"L. {finanzas.get('egresos_totales', 0):,.2f}"])
+            writer.writerow(['Utilidad neta', f"L. {finanzas.get('utilidad_neta', 0):,.2f}"])
             writer.writerow(['Rentabilidad', f"{finanzas.get('rentabilidad', 0):.2f}%"])
             writer.writerow([])
             
@@ -159,7 +159,7 @@ class ExportadorDatos:
             writer.writerow(['Política actual', gestor.get('politica_actual', 'N/A')])
             writer.writerow(['Sensibilidad', gestor.get('sensibilidad', 0)])
             writer.writerow(['Pedidos generados', gestor.get('pedidos_generados', 0)])
-            writer.writerow(['Costo total pedidos', f"${gestor.get('costo_total_pedidos', 0):,.2f}"])
+            writer.writerow(['Costo total pedidos', f"L. {gestor.get('costo_total_pedidos', 0):,.2f}"])
             writer.writerow([])
             
             # Métricas

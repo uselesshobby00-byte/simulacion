@@ -295,4 +295,4 @@ class Finanzas:
     
     def __repr__(self) -> str:
         """Representación en string de las finanzas"""
-        return f"Finanzas(Saldo: ${self.saldo_actual:.2f}, Utilidad: ${self.utilidad_neta:.2f})"
+        return f"Finanzas(Saldo: L. {self.saldo_actual:.2f}, Utilidad: L. {self.utilidad_neta:.2f})"

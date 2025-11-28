@@ -123,7 +123,7 @@ class PanelGraficas:
         # Configurar gráfica inicial
         self.ax_finanzas.set_title("Evolución Financiera", fontsize=12, fontweight='bold')
         self.ax_finanzas.set_xlabel("Día de Simulación")
-        self.ax_finanzas.set_ylabel("Monto ($)")
+        self.ax_finanzas.set_ylabel("Monto (L.)")
         self.ax_finanzas.grid(True, alpha=0.3)
         self.ax_finanzas.text(0.5, 0.5, 'Esperando datos...', 
                              horizontalalignment='center',
@@ -352,13 +352,13 @@ class PanelGraficas:
             self.ax_finanzas.set_title("Evolución Financiera", 
                                       fontsize=12, fontweight='bold')
             self.ax_finanzas.set_xlabel("Día de Simulación")
-            self.ax_finanzas.set_ylabel("Monto ($)")
+            self.ax_finanzas.set_ylabel("Monto (L.)")
             self.ax_finanzas.grid(True, alpha=0.3)
             self.ax_finanzas.legend(loc='best', fontsize=8)
             
             # Formato de eje Y en miles
             self.ax_finanzas.yaxis.set_major_formatter(
-                plt.FuncFormatter(lambda x, p: f'${x/1000:.1f}K')
+                plt.FuncFormatter(lambda x, p: f'L. {x/1000:.1f}K')
             )
         
         self.canvas_finanzas.draw()
@@ -374,14 +374,14 @@ class PanelGraficas:
 📊 Resumen Financiero (Día {estado['dia']})
 {'='*40}
 
-💰 Saldo Actual:      ${finanzas['saldo_actual']:,.2f}
-💵 Saldo Inicial:     ${finanzas['saldo_inicial']:,.2f}
+💰 Saldo Actual:      L. {finanzas['saldo_actual']:,.2f}
+💵 Saldo Inicial:     L. {finanzas['saldo_inicial']:,.2f}
 
-📈 Ingresos Totales:  ${finanzas['ingresos_totales']:,.2f}
-📉 Egresos Totales:   ${finanzas['egresos_totales']:,.2f}
+📈 Ingresos Totales:  L. {finanzas['ingresos_totales']:,.2f}
+📉 Egresos Totales:   L. {finanzas['egresos_totales']:,.2f}
 
 {'='*40}
-💎 UTILIDAD NETA:     ${finanzas['utilidad_neta']:,.2f}
+💎 UTILIDAD NETA:     L. {finanzas['utilidad_neta']:,.2f}
 📊 Rentabilidad:      {finanzas['rentabilidad']:.2f}%
 
 📝 Transacciones:     {finanzas['num_transacciones']}
@@ -407,11 +407,11 @@ class PanelGraficas:
 🎚️  Sensibilidad:      {gestor['sensibilidad']:.2f}
 
 📋 Pedidos Generados:  {gestor['pedidos_generados']}
-💵 Costo Pedidos:      ${gestor['costo_total_pedidos']:,.2f}
+💵 Costo Pedidos:      L. {gestor['costo_total_pedidos']:,.2f}
         """
         
         if gestor['pedidos_generados'] > 0:
-            texto_op += f"\n💰 Costo Prom/Pedido:  ${gestor['costo_promedio_pedido']:,.2f}"
+            texto_op += f"\n💰 Costo Prom/Pedido:  L. {gestor['costo_promedio_pedido']:,.2f}"
         
         self.lbl_metricas_op.delete(1.0, tk.END)
         self.lbl_metricas_op.insert(1.0, texto_op)
@@ -486,16 +486,16 @@ class PanelGraficas:
             # Detalles según tipo
             if tipo == "VENTA":
                 detalle = f"  ✓ {datos['cliente']} compró {datos['cantidad']} de {datos['producto']}\n"
-                detalle += f"    Ingreso: ${datos['ingreso']:.2f}\n\n"
+                detalle += f"    Ingreso: L. {datos['ingreso']:.2f}\n\n"
             elif tipo == "PEDIDO":
                 detalle = f"  📋 Pedido a {datos['proveedor']}: {datos['cantidad']} de {datos['producto']}\n"
-                detalle += f"    Costo: ${datos['costo']:.2f}, Entrega en {datos.get('dias_entrega', '?')} días\n\n"
+                detalle += f"    Costo: L. {datos['costo']:.2f}, Entrega en {datos.get('dias_entrega', '?')} días\n\n"
             elif tipo == "RECEPCION":
                 detalle = f"  📦 Recibido: {datos['cantidad']} de {datos['producto']}\n"
-                detalle += f"    Egreso: ${datos['egreso']:.2f}\n\n"
+                detalle += f"    Egreso: L. {datos['egreso']:.2f}\n\n"
             elif tipo == "DESABASTECIMIENTO":
                 detalle = f"  ❌ {datos['cliente']} no pudo comprar {datos['cantidad_solicitada']} de {datos['producto']}\n"
-                detalle += f"    Disponible: {datos['inventario_disponible']}, Penalización: ${datos['penalizacion']:.2f}\n\n"
+                detalle += f"    Disponible: {datos['inventario_disponible']}, Penalización: L. {datos['penalizacion']:.2f}\n\n"
             elif tipo == "CAMBIO_POLITICA":
                 detalle = f"  🔄 Cambio de política: {datos.get('politica_anterior', '?')} → {datos.get('politica_nueva', '?')}\n"
                 detalle += f"    Razón: {datos.get('razon', 'No especificada')}\n\n"

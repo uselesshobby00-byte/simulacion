@@ -46,11 +46,11 @@ class PanelProductos:
                                  font=("Arial", 11, "bold"))
         self.lbl_dia.pack(anchor=tk.W, pady=2)
         
-        self.lbl_saldo = ttk.Label(frame_estado, text="Saldo: $0.00", 
+        self.lbl_saldo = ttk.Label(frame_estado, text="Saldo: L. 0.00", 
                                    font=("Arial", 10))
         self.lbl_saldo.pack(anchor=tk.W, pady=2)
         
-        self.lbl_utilidad = ttk.Label(frame_estado, text="Utilidad Neta: $0.00", 
+        self.lbl_utilidad = ttk.Label(frame_estado, text="Utilidad Neta: L. 0.00", 
                                       font=("Arial", 10))
         self.lbl_utilidad.pack(anchor=tk.W, pady=2)
         
@@ -310,8 +310,8 @@ class PanelProductos:
     def limpiar(self):
         """Limpia el panel"""
         self.lbl_dia.config(text="Día: 0")
-        self.lbl_saldo.config(text="Saldo: $0.00", foreground="black")
-        self.lbl_utilidad.config(text="Utilidad Neta: $0.00", foreground="black")
+        self.lbl_saldo.config(text="Saldo: L. 0.00", foreground="black")
+        self.lbl_utilidad.config(text="Utilidad Neta: L. 0.00", foreground="black")
         self.lbl_rentabilidad.config(text="Rentabilidad: 0.00%")
         self.lbl_desabastecimientos.config(text="Desabastecimientos: 0", foreground="black")
         self.lbl_ventas.config(text="Ventas Totales: 0")

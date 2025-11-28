@@ -210,7 +210,7 @@ def formatear_moneda(monto):
     Returns:
         String formateado
     """
-    return f"${monto:,.2f}"
+    return f"L. {monto:,.2f}"
 
 
 def formatear_porcentaje(valor):

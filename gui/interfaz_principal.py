@@ -277,7 +277,8 @@ class InterfazPrincipal:
         self.panel_graficas.actualizar_graficas(self.simulador)
         
         # Actualizar eventos
-        eventos_recientes = self.simulador.obtener_eventos_recientes(100)
+        eventos_recientes = self.simulador.obtener_eventos_recientes(0)
+        
         #eventos_recientes = self.simulador.eventos_log[self.simulador.indice_inicio_dia:]
         
         self.panel_graficas.actualizar_eventos(eventos_recientes)

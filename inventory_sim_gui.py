@@ -413,8 +413,7 @@ class InterfazSimulador:
                 texto += f"Pedido a {evento['proveedor']}: {evento['cantidad']} de {evento['producto']} (- L. {evento['costo']:.2f})"
             elif evento['tipo'] == 'RECEPCION':
                 texto += f"Recibido: {evento['cantidad']} de {evento['producto']}"
-            elif evento['tipo'] == 'COSTOS POR ALMACENAMIENTO':
-                texto += f"(- L. {evento['Costo']:.2f})"
+            
             
             self.text_eventos.insert(tk.END, texto + "\n")
             self.text_eventos.see(tk.END)
